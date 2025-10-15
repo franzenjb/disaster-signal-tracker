@@ -29,7 +29,12 @@ def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.ht
     # Create map centered on the continental US
     m = folium.Map(location=[38, -97], zoom_start=5, tiles="CartoDB positron")
 
-    # Add markers by source
+    # Create feature groups for each data source
+    noaa_group = folium.FeatureGroup(name="NOAA Weather Alerts")
+    usgs_group = folium.FeatureGroup(name="USGS Earthquakes") 
+    fire_group = folium.FeatureGroup(name="NASA Wildfires")
+
+    # Add markers by source to appropriate groups
     for _, row in df.iterrows():
         src = row.get("source", "Other")
         color = colors.get(src, "gray")
@@ -42,7 +47,7 @@ def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.ht
                 desc_parts.append(f"{field.title()}: {row[field]}")
         popup_text = f"<b>{src}</b> — {event}<br>" + "<br>".join(desc_parts)
 
-        folium.CircleMarker(
+        marker = folium.CircleMarker(
             location=[row["lat"], row["lon"]],
             radius=6,
             color=color,
@@ -50,14 +55,30 @@ def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.ht
             fill_color=color,
             fill_opacity=0.8,
             popup=popup_text
-        ).add_to(m)
+        )
+        
+        # Add to appropriate group
+        if src == "NOAA":
+            marker.add_to(noaa_group)
+        elif src == "USGS":
+            marker.add_to(usgs_group)
+        elif src == "NASA-FIRMS":
+            marker.add_to(fire_group)
+        else:
+            marker.add_to(m)  # fallback for unknown sources
 
-    # Add title
+    # Add feature groups to map
+    noaa_group.add_to(m)
+    usgs_group.add_to(m)
+    fire_group.add_to(m)
+
+    # Add title with summary link
     title_html = '''
     <div style="position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
          z-index:9999; background-color:white; padding:6px 12px; border-radius:8px;
          box-shadow:0 0 8px rgba(0,0,0,0.3); font-size:16px;">
     <b>🌐 American Red Cross – Live Disaster Feed (NOAA | USGS | NASA)</b>
+    <br><a href="sum.html" target="_blank" style="font-size:12px; color:#0066cc;">📊 View Summary Chart</a>
     </div>
     '''
     m.get_root().html.add_child(folium.Element(title_html))
