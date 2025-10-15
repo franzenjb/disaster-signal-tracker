@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working Disaster Tracker</title>
+    <meta charset="utf-8">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+        .stats { display: flex; justify-content: space-around; padding: 20px; background: #ecf0f1; }
+        .stat { text-align: center; }
+        .number { font-size: 32px; font-weight: bold; color: #e74c3c; }
+        .content { padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .disaster-list { background: white; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .disaster-item { border-bottom: 1px solid #eee; padding: 15px 0; }
+        .disaster-item:last-child { border-bottom: none; }
+        .source { font-weight: bold; color: #3498db; }
+        .location { color: #7f8c8d; font-size: 14px; }
+        .magnitude { background: #e74c3c; color: white; padding: 2px 8px; border-radius: 12px; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌐 Real-Time Disaster Tracker</h1>
+        <p>Live data from NOAA, USGS, and NASA</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="number" id="totalCount">Loading...</div>
+            <div>Total Events</div>
+        </div>
+        <div class="stat">
+            <div class="number" id="noaaCount">-</div>
+            <div>Weather Alerts</div>
+        </div>
+        <div class="stat">
+            <div class="number" id="usgsCount">-</div>
+            <div>Earthquakes</div>
+        </div>
+        <div class="stat">
+            <div class="number" id="fireCount">-</div>
+            <div>Wildfires</div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="disaster-list">
+            <h2>Recent Significant Events</h2>
+            <div id="eventsList">Loading disaster data...</div>
+        </div>
+    </div>
+    
+    <script>
+        // Load and display actual disaster data
+        fetch('combined_disaster_feed.csv')
+            .then(response => response.text())
+            .then(data => {
+                const lines = data.split('\n');
+                const headers = lines[0].split(',');
+                const events = [];
+                
+                // Parse CSV data
+                for (let i = 1; i < Math.min(lines.length, 21); i++) { // Top 20 events
+                    if (lines[i].trim()) {
+                        const values = lines[i].split(',');
+                        const event = {};
+                        headers.forEach((header, index) => {
+                            event[header.trim()] = values[index] ? values[index].trim() : '';
+                        });
+                        events.push(event);
+                    }
+                }
+                
+                // Update statistics
+                const noaaEvents = events.filter(e => e.source === 'NOAA');
+                const usgsEvents = events.filter(e => e.source === 'USGS');
+                const fireEvents = events.filter(e => e.source === 'NASA-FIRMS');
+                
+                document.getElementById('totalCount').textContent = events.length;
+                document.getElementById('noaaCount').textContent = noaaEvents.length;
+                document.getElementById('usgsCount').textContent = usgsEvents.length;
+                document.getElementById('fireCount').textContent = fireEvents.length;
+                
+                // Display events list
+                const eventsList = document.getElementById('eventsList');
+                eventsList.innerHTML = '';
+                
+                events.forEach(event => {
+                    const div = document.createElement('div');
+                    div.className = 'disaster-item';
+                    
+                    let content = `
+                        <div class="source">${event.source} - ${event.event || 'Event'}</div>
+                        <div class="location">📍 ${event.area || event.place || 'Location not specified'}</div>
+                        <div class="location">🗺️ ${parseFloat(event.lat).toFixed(3)}, ${parseFloat(event.lon).toFixed(3)}</div>
+                    `;
+                    
+                    if (event.magnitude) {
+                        content += `<span class="magnitude">M${event.magnitude}</span>`;
+                    }
+                    if (event.severity) {
+                        content += `<span class="magnitude">${event.severity}</span>`;
+                    }
+                    
+                    div.innerHTML = content;
+                    eventsList.appendChild(div);
+                });
+            })
+            .catch(error => {
+                document.getElementById('eventsList').innerHTML = 
+                    '<p style="color: red;">Error loading disaster data. Please check data sources.</p>';
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>
