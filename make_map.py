@@ -1,5 +1,6 @@
 import pandas as pd
 import folium
+from filters import filter_data
 
 def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.html"):
     """
@@ -12,6 +13,9 @@ def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.ht
         print("⚠️ No data found in file:", csv_file)
         return
 
+    # Example: only show severe NOAA events
+    # df = filter_data(df, source="NOAA", severity="Severe")
+    
     # Handle missing coordinates safely
     df = df.dropna(subset=["lat", "lon"])
 
