@@ -65,6 +65,20 @@ def make_map(csv_file="combined_disaster_feed.csv", output_file="disaster_map.ht
     # Add a layer toggle (optional if you later add more)
     folium.LayerControl().add_to(m)
 
+    # Add legend
+    legend_html = """
+    <div style="position: fixed; 
+         bottom: 30px; left: 20px; width: 160px; z-index:9999; 
+         background-color:white; border:1px solid #444; border-radius:6px;
+         padding:6px; font-size:13px;">
+    <b>Legend</b><br>
+    <span style="color:red;">●</span> NOAA Alerts<br>
+    <span style="color:orange;">●</span> USGS Quakes<br>
+    <span style="color:darkred;">●</span> Wildfires
+    </div>
+    """
+    m.get_root().html.add_child(folium.Element(legend_html))
+
     # Save
     m.save(output_file)
     print(f"✅ Map saved to {output_file}")
