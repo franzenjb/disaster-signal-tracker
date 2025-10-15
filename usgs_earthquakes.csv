@@ -1,0 +1,299 @@
+source,event,magnitude,place,time,lat,lon
+USGS,Earthquake,2.5,"58 km S of Arctic Village, Alaska",2025-10-15 11:28:11.293,67.6027,-145.4359
+USGS,Earthquake,5.4,"299 km SSE of Fais, Micronesia",2025-10-15 10:22:09.320,7.2551,141.5284
+USGS,Earthquake,4.9,"68 km E of Santiago, Philippines",2025-10-15 07:44:54.656,7.1768,127.1802
+USGS,Earthquake,5.2,"184 km SSE of Vilyuchinsk, Russia",2025-10-15 05:57:03.192,51.5274,159.8309
+USGS,Earthquake,4.0,"13 km SE of Glacier View, Alaska",2025-10-15 03:30:44.862,61.7294,-147.4562
+USGS,Earthquake,2.5,"29 km S of Arroyo, Puerto Rico",2025-10-15 02:02:41.990,17.6975,-66.0265
+USGS,Earthquake,3.6,"95 km SSE of Sand Point, Alaska",2025-10-15 01:24:10.207,54.5337,-159.9784
+USGS,Earthquake,4.4,Banda Sea,2025-10-15 00:30:00.341,-6.5653,129.7205
+USGS,Earthquake,3.68,"57 km NNE of Isabela, Puerto Rico",2025-10-15 00:11:03.180,19.0115,-66.9035
+USGS,Earthquake,4.0,"34 km W of Pacocha, Peru",2025-10-15 00:05:12.567,-17.6567,-71.6652
+USGS,Earthquake,4.5,"Izu Islands, Japan region",2025-10-14 23:29:10.333,30.3762,138.2748
+USGS,Earthquake,4.6,"38 km ESE of Same, Timor Leste",2025-10-14 22:10:45.813,-9.1429,125.9744
+USGS,Earthquake,4.6,"66 km NW of Lae, Papua New Guinea",2025-10-14 21:58:02.765,-6.2895,146.5762
+USGS,Earthquake,2.52,"4 km NW of Cedar City, Utah",2025-10-14 20:58:26.300,37.7121666666667,-113.0915
+USGS,Earthquake,2.5,"61 km SW of Akhiok, Alaska",2025-10-14 20:58:20.352,56.5079,-154.7976
+USGS,Earthquake,4.9,"163 km SSE of Lata, Solomon Islands",2025-10-14 20:48:19.048,-12.0308,166.4903
+USGS,Earthquake,4.7,"12 km SW of Lae, Papua New Guinea",2025-10-14 20:38:44.395,-6.8131,146.9234
+USGS,Earthquake,4.2,"48 km NE of Mek'ele, Ethiopia",2025-10-14 20:22:40.279,13.7865,39.8097
+USGS,Earthquake,2.9,"58 km S of Whites City, New Mexico",2025-10-14 20:18:09.877,31.65,-104.398
+USGS,Earthquake,2.8,"58 km S of Whites City, New Mexico",2025-10-14 20:10:53.655,31.652,-104.4
+USGS,Earthquake,5.3,"206 km ENE of Kokopo, Papua New Guinea",2025-10-14 19:32:40.938,-3.7244,154.0187
+USGS,Earthquake,4.8,"78 km E of Baculin, Philippines",2025-10-14 19:26:13.805,7.5247,127.2908
+USGS,Earthquake,4.6,"42 km NE of Dipayal, Nepal",2025-10-14 19:23:30.915,29.5493,81.2298
+USGS,Earthquake,3.9,"57 km S of Whites City, New Mexico",2025-10-14 19:19:12.263,31.653,-104.4
+USGS,Earthquake,2.8,"58 km S of Whites City, New Mexico",2025-10-14 19:09:56.203,31.651,-104.394
+USGS,Earthquake,3.2,"159 km SE of Chiniak, Alaska",2025-10-14 18:42:00.032,56.6736,-150.2813
+USGS,Earthquake,4.9,"47 km ESE of Baculin, Philippines",2025-10-14 18:17:14.900,7.358,127.0007
+USGS,Earthquake,4.9,"79 km E of Baculin, Philippines",2025-10-14 17:23:55.989,7.4818,127.308
+USGS,Earthquake,5.2,"61 km ENE of La Tirana, Chile",2025-10-14 17:10:17.387,-20.202,-69.0889
+USGS,Earthquake,4.8,Revilla Gigedo Islands region,2025-10-14 16:20:52.713,19.9438,-109.4064
+USGS,Earthquake,4.3,"62 km SE of Vilyuchinsk, Russia",2025-10-14 16:12:27.681,52.4871,158.981
+USGS,Earthquake,4.6,"163 km NW of Sola, Vanuatu",2025-10-14 15:42:55.937,-12.7502,166.5776
+USGS,Earthquake,4.1,"29 km SSE of Jurm, Afghanistan",2025-10-14 15:23:21.022,36.6287,70.9899
+USGS,Earthquake,4.3,"224 km WSW of Tual, Indonesia",2025-10-14 15:17:29.263,-6.3309,130.8498
+USGS,Earthquake,4.4,"83 km ESE of Shikotan, Russia",2025-10-14 13:05:48.308,43.643,147.7374
+USGS,Earthquake,2.6,"47 km S of Tolsona, Alaska",2025-10-14 11:45:55.025,61.6619,-146.1451
+USGS,Earthquake,4.5,"104 km SE of Pondaguitan, Philippines",2025-10-14 10:13:00.122,5.7775,126.9259
+USGS,Earthquake,4.6,"90 km ESE of Kokopo, Papua New Guinea",2025-10-14 08:57:22.882,-4.5447,153.0547
+USGS,Earthquake,2.53,"14 km WSW of Patterson, CA",2025-10-14 08:44:43.820,37.4298324584961,-121.280830383301
+USGS,Earthquake,2.7,"17 km NE of El Indio, Texas",2025-10-14 08:18:28.419,28.615,-100.181
+USGS,Earthquake,2.7,"42 km NE of Chase, Alaska",2025-10-14 08:12:01.682,62.763,-149.6381
+USGS,Earthquake,3.2,"57 km S of Whites City, New Mexico",2025-10-14 05:56:04.979,31.66,-104.4
+USGS,Earthquake,4.4,Banda Sea,2025-10-14 05:03:28.891,-6.4889,130.0426
+USGS,Earthquake,4.8,"70 km NNE of Calama, Chile",2025-10-14 04:43:34.719,-21.88,-68.64
+USGS,Earthquake,4.8,"143 km ENE of Petropavlovsk-Kamchatsky, Russia",2025-10-14 03:47:44.114,53.6643,160.5314
+USGS,Earthquake,2.6,"4 km NNW of Chazy, New York",2025-10-14 03:39:25.507,44.9257,-73.467
+USGS,Earthquake,4.6,"51 km SW of Tennō, Japan",2025-10-14 03:34:24.223,39.605,139.5058
+USGS,Earthquake,4.6,"107 km ENE of Aksu, China",2025-10-14 03:15:27.067,41.6443,81.416
+USGS,Earthquake,4.2,"8 km W of Poopó, Bolivia",2025-10-14 03:01:49.780,-18.3774,-67.0477
+USGS,Earthquake,4.9,"22 km E of Baculin, Philippines",2025-10-14 02:39:05.447,7.4155,126.7836
+USGS,Earthquake,5.5,"69 km E of Baculin, Philippines",2025-10-14 02:00:11.521,7.3466,127.2027
+USGS,Earthquake,2.92,"85 km ENE of Punta Cana, Dominican Republic",2025-10-14 00:09:56.020,18.9995,-67.7185
+USGS,Earthquake,4.1,"78 km W of Ollagüe, Chile",2025-10-13 23:14:15.282,-21.1265,-69.0054
+USGS,Earthquake,3.91,"11 km ENE of La Romana, Dominican Republic",2025-10-13 22:41:41.390,18.4641,-68.8663
+USGS,Earthquake,3.1,"202 km W of Bandon, Oregon",2025-10-13 21:27:59.732,43.4103,-126.8669
+USGS,Earthquake,3.4,"30 km NW of Whites City, New Mexico",2025-10-13 20:12:13.288,32.3365,-104.643
+USGS,Earthquake,4.8,"79 km S of Calingasta, Argentina",2025-10-13 18:58:40.258,-32.0499,-69.4216
+USGS,Earthquake,4.5,"59 km E of Severo-Kuril’sk, Russia",2025-10-13 18:49:57.292,50.6405,156.9695
+USGS,Earthquake,4.5,"75 km SSE of Severo-Kuril’sk, Russia",2025-10-13 17:40:01.308,50.0975,156.6747
+USGS,Earthquake,4.1,"33 km E of Port Alsworth, Alaska",2025-10-13 16:51:16.956,60.1979,-153.7065
+USGS,Earthquake,2.77,"38 km W of Petrolia, CA",2025-10-13 16:47:00.210,40.3508338928223,-124.737167358398
+USGS,Earthquake,4.6,"80 km NNW of Fangale’ounga, Tonga",2025-10-13 16:40:22.211,-19.092,-174.6454
+USGS,Earthquake,3.2,"245 km W of Ferndale, California",2025-10-13 16:33:14.704,40.5467,-127.16
+USGS,Earthquake,4.5,"198 km SSE of Vilyuchinsk, Russia",2025-10-13 16:27:42.209,51.348,159.7371
+USGS,Earthquake,2.9,"95 km SE of Yakutat, Alaska",2025-10-13 15:59:25.733,58.9059,-138.6068
+USGS,Earthquake,4.7,"45 km NNW of Barishal, Pakistan",2025-10-13 15:58:28.858,36.7158,74.5704
+USGS,Earthquake,2.47,"2 km WSW of Indios, Puerto Rico",2025-10-13 12:59:18.120,17.986,-66.8396666666667
+USGS,Earthquake,4.5,"49 km ESE of Santiago, Philippines",2025-10-13 12:24:54.750,7.1111,126.988
+USGS,Earthquake,5.9,"State of Yap, Federated States of Micronesia",2025-10-13 11:11:00.352,7.2482,141.6049
+USGS,Earthquake,4.3,"56 km NNE of Calama, Chile",2025-10-13 10:52:43.378,-21.9944,-68.7016
+USGS,Earthquake,2.45,"4 km ENE of La Parguera, Puerto Rico",2025-10-13 09:12:01.070,17.9858333333333,-67.0096666666667
+USGS,Earthquake,4.9,"73 km WNW of Kirakira, Solomon Islands",2025-10-13 09:10:31.549,-10.3071,161.2627
+USGS,Earthquake,4.5,"170 km SSE of Isangel, Vanuatu",2025-10-13 08:59:21.379,-21.0283,169.7044
+USGS,Earthquake,4.8,east of the North Island of New Zealand,2025-10-13 08:35:35.683,-35.6075,-179.3476
+USGS,Earthquake,3.44,"28 km NNE of Cruz Bay, U.S. Virgin Islands",2025-10-13 07:27:09.720,18.5555,-64.6555
+USGS,Earthquake,2.61,"13 km SE of Petrolia, CA",2025-10-13 07:14:38.290,40.242000579834,-124.176834106445
+USGS,Earthquake,4.9,"32 km SE of Kalianget, Indonesia",2025-10-13 07:10:30.079,-7.2291,114.1833
+USGS,Earthquake,4.5,"72 km WNW of Monywa, Burma (Myanmar)",2025-10-13 05:40:30.288,22.4329,94.5236
+USGS,Earthquake,2.49,"15 km SSE of Guánica, Puerto Rico",2025-10-13 05:40:20.390,17.8423333333333,-66.8575
+USGS,Earthquake,3.07,"32 km W of Rincón, Puerto Rico",2025-10-13 04:54:30.350,18.3126666666667,-67.5573333333333
+USGS,Earthquake,2.57,"22 km SW of Toms Place, CA",2025-10-13 03:35:14.220,37.4368324279785,-118.875
+USGS,Earthquake,2.57,"23 km SW of Toms Place, CA",2025-10-13 03:31:38.410,37.4345016479492,-118.879997253418
+USGS,Earthquake,4.7,"92 km SE of Ōfunato, Japan",2025-10-13 03:25:44.134,38.5931,142.5944
+USGS,Earthquake,3.4,"57 km SSE of Perryville, Alaska",2025-10-13 03:06:54.179,55.4768,-158.6394
+USGS,Earthquake,4.2,"30 km ESE of Kasilof, Alaska",2025-10-13 02:52:30.772,60.2202,-150.7827
+USGS,Earthquake,4.9,South Sandwich Islands region,2025-10-13 02:40:34.154,-58.9889,-25.4247
+USGS,Earthquake,4.6,east of the North Island of New Zealand,2025-10-13 02:23:21.209,-35.5109,-179.3657
+USGS,Earthquake,4.9,"47 km W of Ovalle, Chile",2025-10-13 01:28:07.898,-30.6574,-71.6865
+USGS,Earthquake,4.4,"45 km W of Ovalle, Chile",2025-10-13 01:11:33.886,-30.6656,-71.6729
+USGS,Earthquake,5.6,"218 km SSW of Severo-Kuril’sk, Russia",2025-10-13 01:10:10.171,48.9057,154.8053
+USGS,Earthquake,5.2,"119 km ESE of Ozernovskiy, Russia",2025-10-13 01:09:44.062,51.0302,158.0493
+USGS,Earthquake,3.14,"66 km N of Cruz Bay, U.S. Virgin Islands",2025-10-13 00:48:59.600,18.9328333333333,-64.7911666666667
+USGS,Earthquake,3.32,"33 km NW of San Antonio, Puerto Rico",2025-10-12 23:57:40.380,18.731,-67.2918333333333
+USGS,Earthquake,4.0,"114 km SW of Kastrí, Greece",2025-10-12 23:11:16.415,34.0312,23.2968
+USGS,Earthquake,4.2,"151 km NNE of Labuan Bajo, Indonesia",2025-10-12 23:03:39.094,-7.2289,120.4138
+USGS,Earthquake,2.9,"7 km WSW of Westbrook, Texas",2025-10-12 23:00:06.517,32.326,-101.082
+USGS,Earthquake,4.3,"26 km W of Pante Makasar, Timor Leste",2025-10-12 22:30:34.224,-9.2064,124.1397
+USGS,Earthquake,4.6,"15 km NW of Katobu, Indonesia",2025-10-12 22:08:58.950,-4.7143,122.6421
+USGS,Earthquake,3.21,"68 km N of Culebra, Puerto Rico",2025-10-12 21:37:26.890,18.918,-65.2591666666667
+USGS,Earthquake,3.23,"102 km NNW of San Antonio, Puerto Rico",2025-10-12 21:09:47.380,19.3743333333333,-67.3831666666667
+USGS,Earthquake,2.7,"20 km NE of Pedro Bay, Alaska",2025-10-12 20:15:14.192,59.9394,-153.8897
+USGS,Earthquake,4.6,Reykjanes Ridge,2025-10-12 19:06:09.003,57.1359,-33.8459
+USGS,Earthquake,2.6,"64 km ESE of Egegik, Alaska",2025-10-12 18:50:55.834,58.0959,-156.3064
+USGS,Earthquake,4.6,Reykjanes Ridge,2025-10-12 18:27:48.451,56.9192,-33.5127
+USGS,Earthquake,4.5,"60 km SE of Vilyuchinsk, Russia",2025-10-12 18:11:04.164,52.5385,159.0215
+USGS,Earthquake,4.5,"91 km E of Santiago, Philippines",2025-10-12 17:37:53.093,7.2708,127.4028
+USGS,Earthquake,5.7,"2 km SSE of Tambongon, Philippines",2025-10-12 17:05:59.657,10.9457,123.9375
+USGS,Earthquake,4.4,"59 km WSW of Kastrí, Greece",2025-10-12 16:47:32.716,34.6655,23.4677
+USGS,Earthquake,4.6,"52 km ENE of Los Andes, Chile",2025-10-12 16:42:39.686,-32.6039,-70.1041
+USGS,Earthquake,3.33,"6 km SE of La Romana, Dominican Republic",2025-10-12 15:44:15.030,18.39,-68.9206666666667
+USGS,Earthquake,3.69,"43 km NE of Miches, Dominican Republic",2025-10-12 14:18:51.010,19.2368,-68.7333
+USGS,Earthquake,4.07,"65 km NE of Samaná, Dominican Republic",2025-10-12 13:35:18.990,19.5498,-68.829
+USGS,Earthquake,3.0,"27 km NNE of Old Harbor, Alaska",2025-10-12 13:28:53.828,57.4338,-153.1285
+USGS,Earthquake,3.44,"85 km N of Cruz Bay, U.S. Virgin Islands",2025-10-12 10:50:50.250,19.096,-64.6668333333333
+USGS,Earthquake,4.5,"95 km NNW of Ternate, Indonesia",2025-10-12 10:23:59.337,1.5366,126.9549
+USGS,Earthquake,4.4,"60 km ENE of Barcelona, Philippines",2025-10-12 09:44:26.701,8.3514,126.9497
+USGS,Earthquake,4.7,"187 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-12 07:56:35.436,53.0475,161.4288
+USGS,Earthquake,4.9,"32 km WNW of Linqiong, China",2025-10-12 07:21:43.771,30.4852,103.1367
+USGS,Earthquake,2.6,"23 km N of Spencer, Idaho",2025-10-12 06:54:17.950,44.567,-112.222833333333
+USGS,Earthquake,4.3,"5 km WSW of Westbrook, Texas",2025-10-12 06:08:59.092,32.336,-101.07
+USGS,Earthquake,2.83,"18 km NNW of Walker, CA",2025-10-12 06:08:24.350,38.6623344421387,-119.572334289551
+USGS,Earthquake,4.4,"11 km S of Ula, Turkey",2025-10-12 03:40:59.272,37.0068,28.4378
+USGS,Earthquake,4.8,Greenland Sea,2025-10-12 03:13:11.673,75.9176,6.9195
+USGS,Earthquake,2.9,"7 km NNW of Moose Pass, Alaska",2025-10-12 03:11:13.394,60.5456,-149.4292
+USGS,Earthquake,5.0,"147 km W of Abepura, Indonesia",2025-10-12 03:00:35.591,-2.7344,139.3097
+USGS,Earthquake,3.0,"45 km SE of Mud Bay, Alaska",2025-10-12 02:44:06.395,58.8931,-134.7828
+USGS,Earthquake,4.8,"14 km E of Niños Héroes, Mexico",2025-10-12 02:26:24.681,17.4321,-94.3667
+USGS,Earthquake,4.6,"51 km E of Santiago, Philippines",2025-10-12 01:25:34.632,7.2427,127.0336
+USGS,Earthquake,4.4,"80 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-12 01:20:30.408,53.1372,159.8303
+USGS,Earthquake,2.6,"17 km WSW of Whittier, Alaska",2025-10-12 00:48:38.499,60.7343,-148.9932
+USGS,Earthquake,4.4,"10 km N of Piura, Peru",2025-10-11 23:52:31.134,-5.0995,-80.623
+USGS,Earthquake,2.7,"12 km W of Stanton, Texas",2025-10-11 23:50:05.954,32.119,-101.922
+USGS,Earthquake,4.7,"108 km S of Merizo Village, Guam",2025-10-11 23:20:50.762,12.3055,144.4819
+USGS,Earthquake,4.5,"206 km SE of Petropavlovsk-Kamchatsky, Russia",2025-10-11 22:18:22.400,51.7293,160.7335
+USGS,Earthquake,4.5,"51 km NE of Mek'ele, Ethiopia",2025-10-11 21:41:28.580,13.8263,39.8083
+USGS,Earthquake,4.3,"50 km SE of Ādīgrat, Ethiopia",2025-10-11 21:23:13.390,13.9281,39.7667
+USGS,Earthquake,2.7,"78 km NW of Aleneva, Alaska",2025-10-11 20:43:47.405,58.4957,-153.9702
+USGS,Earthquake,4.9,"47 km E of Kinablangan, Philippines",2025-10-11 19:28:28.640,7.6918,126.9787
+USGS,Earthquake,2.6,"46 km WSW of Tatitlek, Alaska",2025-10-11 18:47:44.060,60.6481,-147.3988
+USGS,Earthquake,4.8,"46 km SE of Ādīgrat, Ethiopia",2025-10-11 18:38:22.249,13.9766,39.7622
+USGS,Earthquake,5.1,Drake Passage,2025-10-11 18:29:36.215,-60.2617,-61.0984
+USGS,Earthquake,3.5,"42 km WSW of Tatitlek, Alaska",2025-10-11 18:18:46.038,60.7086,-147.3961
+USGS,Earthquake,4.4,"274 km WSW of Tual, Indonesia",2025-10-11 17:59:19.343,-6.258,130.3564
+USGS,Earthquake,5.6,"49 km NE of Mek'ele, Ethiopia",2025-10-11 16:18:25.511,13.7613,39.8494
+USGS,Earthquake,5.2,"62 km NE of Mek'ele, Ethiopia",2025-10-11 16:01:59.270,13.8185,39.946
+USGS,Earthquake,4.7,"42 km E of Kandrian, Papua New Guinea",2025-10-11 15:04:05.940,-6.1703,149.9302
+USGS,Earthquake,4.9,Kermadec Islands region,2025-10-11 14:56:53.552,-31.5685,-178.0277
+USGS,Earthquake,4.6,"15 km WSW of Fatehpur, Pakistan",2025-10-11 14:53:59.303,31.1252,71.0598
+USGS,Earthquake,6.0,"10 km ENE of Aras-asan, Philippines",2025-10-11 14:32:58.526,8.92,126.3963
+USGS,Earthquake,4.5,"6 km ENE of Hingatungan, Philippines",2025-10-11 13:54:58.808,10.5951,125.2408
+USGS,Earthquake,4.5,"243 km WSW of Adak, Alaska",2025-10-11 13:51:18.225,51.0073,-179.8482
+USGS,Earthquake,5.5,South Sandwich Islands region,2025-10-11 13:08:00.119,-56.3773,-26.5568
+USGS,Earthquake,4.5,"69 km ESE of San Ignacio, Philippines",2025-10-11 12:47:42.866,6.8025,127.0286
+USGS,Earthquake,3.1,"13 km WSW of Tyonek, Alaska",2025-10-11 12:29:18.436,61.0335,-151.3746
+USGS,Earthquake,5.8,"56 km SE of Severo-Kuril’sk, Russia",2025-10-11 12:25:59.387,50.3263,156.6974
+USGS,Earthquake,2.9,"52 km NNE of Luquillo, Puerto Rico",2025-10-11 12:14:36.280,18.7848333333333,-65.4618333333333
+USGS,Earthquake,4.2,"47 km NE of Mek'ele, Ethiopia",2025-10-11 12:07:33.115,13.7867,39.7999
+USGS,Earthquake,2.7,"139 km WSW of Port Orford, Oregon",2025-10-11 12:05:32.723,42.3926,-126.1299
+USGS,Earthquake,2.6,"47 km E of Lamoille, Nevada",2025-10-11 11:21:36.666,40.685,-114.9237
+USGS,Earthquake,5.5,"24 km E of Santiago, Philippines",2025-10-11 10:27:23.935,7.2713,126.798
+USGS,Earthquake,4.9,"10 km S of Santa Juliana, Philippines",2025-10-11 09:32:16.843,15.2385,120.44
+USGS,Earthquake,2.51,"2 km WNW of North Fork, CA",2025-10-11 09:05:26.670,37.2351684570312,-119.533668518066
+USGS,Earthquake,2.58,"5 km SSE of Mentone, CA",2025-10-11 09:05:00.360,34.0258333,-117.118
+USGS,Earthquake,5.0,"181 km SE of Lorengau, Papua New Guinea",2025-10-11 08:35:22.348,-3.1483,148.4716
+USGS,Earthquake,3.7,"76 km SE of Akutan, Alaska",2025-10-11 08:35:09.833,53.7503,-164.8168
+USGS,Earthquake,2.92,"4 km ENE of Steele, Missouri",2025-10-11 08:28:45.290,36.093,-89.7828333333333
+USGS,Earthquake,5.4,South Sandwich Islands region,2025-10-11 08:06:43.741,-56.1829,-26.4921
+USGS,Earthquake,2.7,"99 km ESE of McCarthy, Alaska",2025-10-11 07:10:11.557,61.2451,-141.1094
+USGS,Earthquake,4.6,"37 km ESE of Santiago, Philippines",2025-10-11 07:02:35.696,7.1159,126.8701
+USGS,Earthquake,3.1,"219 km WNW of Bandon, Oregon",2025-10-11 06:51:24.941,43.5963,-127.0354
+USGS,Earthquake,4.8,"Izu Islands, Japan region",2025-10-11 03:22:00.952,30.3456,138.4539
+USGS,Earthquake,5.2,"34 km SW of Zhaotong, China",2025-10-11 03:18:16.562,27.1032,103.4597
+USGS,Earthquake,5.4,"79 km ENE of Petropavlovsk-Kamchatsky, Russia",2025-10-11 03:08:44.640,53.2522,159.7815
+USGS,Earthquake,2.64,"6 km SSE of Guánica, Puerto Rico",2025-10-11 02:43:35.860,17.9176666666667,-66.883
+USGS,Earthquake,4.4,south of the Fiji Islands,2025-10-11 01:54:02.381,-24.4324,179.8384
+USGS,Earthquake,2.57,"14 km SSE of Guánica, Puerto Rico",2025-10-11 01:39:43.260,17.848,-66.855
+USGS,Earthquake,4.7,"47 km ESE of Manay, Philippines",2025-10-11 01:16:34.821,7.0043,126.9131
+USGS,Earthquake,4.7,Drake Passage,2025-10-11 00:46:16.161,-60.2488,-61.8182
+USGS,Earthquake,2.5,"141 km NNE of Kobuk, Alaska",2025-10-11 00:44:13.332,68.053,-155.4637
+USGS,Earthquake,4.5,"15 km W of Kainantu, Papua New Guinea",2025-10-10 23:39:54.412,-6.3108,145.723
+USGS,Earthquake,4.6,Drake Passage,2025-10-10 23:09:03.617,-60.3594,-62.3905
+USGS,Earthquake,5.0,"52 km E of Baculin, Philippines",2025-10-10 22:20:47.634,7.4016,127.0559
+USGS,Earthquake,4.8,Drake Passage,2025-10-10 22:09:48.198,-60.1049,-62.5368
+USGS,Earthquake,4.3,"48 km S of Urakawa, Japan",2025-10-10 22:06:36.054,41.7258,142.679
+USGS,Earthquake,5.4,Drake Passage,2025-10-10 21:34:22.435,-60.0861,-62.4775
+USGS,Earthquake,5.7,Drake Passage,2025-10-10 21:28:42.452,-60.0413,-62.3553
+USGS,Earthquake,4.9,Drake Passage,2025-10-10 21:13:47.581,-60.031,-61.5268
+USGS,Earthquake,4.6,Drake Passage,2025-10-10 21:00:01.659,-60.0289,-62.6546
+USGS,Earthquake,4.9,"76 km E of Santiago, Philippines",2025-10-10 20:40:13.009,7.1762,127.2601
+USGS,Earthquake,7.6,Drake Passage,2025-10-10 20:29:20.591,-60.1958,-61.799
+USGS,Earthquake,4.6,"56 km SE of Manay, Philippines",2025-10-10 19:37:00.039,6.9304,126.9662
+USGS,Earthquake,3.0,"156 km WSW of Port Orford, Oregon",2025-10-10 19:02:04.355,42.3964,-126.3473
+USGS,Earthquake,4.6,"80 km E of Santiago, Philippines",2025-10-10 18:58:11.084,7.2319,127.298
+USGS,Earthquake,4.9,"54 km ESE of Santiago, Philippines",2025-10-10 18:15:19.669,7.0835,127.0178
+USGS,Earthquake,4.7,"45 km ESE of Lapi, Philippines",2025-10-10 16:54:30.495,17.5045,122.2656
+USGS,Earthquake,4.6,"15 km ESE of Baculin, Philippines",2025-10-10 16:30:46.326,7.4209,126.7177
+USGS,Earthquake,4.5,"220 km SE of Sarangani, Philippines",2025-10-10 16:10:34.090,3.7858,126.6241
+USGS,Earthquake,3.44,"78 km N of Cruz Bay, U.S. Virgin Islands",2025-10-10 15:16:24.050,19.0298333333333,-64.693
+USGS,Earthquake,4.3,"73 km NNW of Pārūn, Afghanistan",2025-10-10 15:01:17.076,36.0322,70.6102
+USGS,Earthquake,4.0,"114 km SSW of False Pass, Alaska",2025-10-10 14:46:29.408,53.8866,-164.0113
+USGS,Earthquake,3.1,"69 km N of Arctic Village, Alaska",2025-10-10 13:51:54.966,68.7489,-145.6679
+USGS,Earthquake,4.9,"20 km SSW of Zhaotong, China",2025-10-10 13:21:12.802,27.1386,103.6442
+USGS,Earthquake,4.7,"27 km NNW of Tasiilaq, Greenland",2025-10-10 13:19:49.372,65.8514,-37.7715
+USGS,Earthquake,5.0,"67 km E of Baculin, Philippines",2025-10-10 13:13:32.485,7.3513,127.1888
+USGS,Earthquake,2.6,"49 km NE of Valmy, Nevada",2025-10-10 13:06:31.204,41.1432,-116.7667
+USGS,Earthquake,4.9,"53 km E of Baculin, Philippines",2025-10-10 13:03:58.132,7.4134,127.0663
+USGS,Earthquake,5.1,"76 km ESE of Santiago, Philippines",2025-10-10 12:49:38.204,7.0649,127.2314
+USGS,Earthquake,4.8,"61 km ESE of Baculin, Philippines",2025-10-10 12:36:23.643,7.3418,127.1347
+USGS,Earthquake,4.8,South Sandwich Islands region,2025-10-10 12:26:10.921,-55.2238,-29.0845
+USGS,Earthquake,4.8,"42 km E of Santiago, Philippines",2025-10-10 12:01:17.420,7.2841,126.9585
+USGS,Earthquake,5.2,"239 km NNE of Fais, Micronesia",2025-10-10 11:48:01.222,11.6386,141.6218
+USGS,Earthquake,4.8,"63 km E of Santiago, Philippines",2025-10-10 11:47:39.096,7.2528,127.15
+USGS,Earthquake,5.6,"43 km SE of Severo-Kuril’sk, Russia",2025-10-10 11:16:02.383,50.3802,156.5204
+USGS,Earthquake,6.7,"23 km ESE of Santiago, Philippines",2025-10-10 11:12:07.106,7.1716,126.7553
+USGS,Earthquake,4.4,"214 km ENE of Levuka, Fiji",2025-10-10 10:49:09.839,-17.6368,-178.7135
+USGS,Earthquake,5.1,"25 km ESE of Manay, Philippines",2025-10-10 10:20:33.387,7.1418,126.7548
+USGS,Earthquake,5.5,Banda Sea,2025-10-10 10:02:51.536,-6.9375,129.544
+USGS,Earthquake,5.1,"34 km ESE of Santiago, Philippines",2025-10-10 10:01:03.714,7.1952,126.8738
+USGS,Earthquake,5.6,"219 km NNE of Fais, Micronesia",2025-10-10 09:43:40.641,11.4553,141.5675
+USGS,Earthquake,5.2,"45 km ESE of Manay, Philippines",2025-10-10 09:43:32.966,6.9978,126.89
+USGS,Earthquake,4.9,"50 km ESE of Santiago, Philippines",2025-10-10 09:06:42.397,7.1851,127.0224
+USGS,Earthquake,4.5,"22 km ESE of Santiago, Philippines",2025-10-10 08:39:27.503,7.1969,126.7558
+USGS,Earthquake,3.44,"88 km NNE of Cruz Bay, U.S. Virgin Islands",2025-10-10 07:56:10.310,19.1073333333333,-64.5881666666667
+USGS,Earthquake,4.9,"46 km ESE of Santiago, Philippines",2025-10-10 07:38:42.816,7.0924,126.9429
+USGS,Earthquake,5.2,"41 km ESE of Manay, Philippines",2025-10-10 07:24:12.212,7.009,126.849
+USGS,Earthquake,4.7,"52 km ESE of Santiago, Philippines",2025-10-10 07:16:01.686,7.1656,127.0366
+USGS,Earthquake,4.9,"45 km ESE of San Ignacio, Philippines",2025-10-10 06:32:24.142,6.9097,126.8412
+USGS,Earthquake,4.6,"14 km S of Conchagua, El Salvador",2025-10-10 06:27:16.891,13.1742,-87.8711
+USGS,Earthquake,4.7,"142 km ENE of Tual, Indonesia",2025-10-10 06:09:52.118,-5.0896,133.9173
+USGS,Earthquake,4.9,"47 km ESE of Santiago, Philippines",2025-10-10 06:06:24.032,7.1838,126.9866
+USGS,Earthquake,5.1,"58 km ESE of Jovellar, Philippines",2025-10-10 05:48:54.718,6.8213,126.9228
+USGS,Earthquake,5.2,"73 km ESE of San Ignacio, Philippines",2025-10-10 05:47:45.744,6.8017,127.0765
+USGS,Earthquake,5.1,"219 km WSW of Kavieng, Papua New Guinea",2025-10-10 05:46:39.771,-3.2018,148.9217
+USGS,Earthquake,4.5,"93 km SSE of Sand Point, Alaska",2025-10-10 05:42:10.525,54.5371,-160.0759
+USGS,Earthquake,4.5,"68 km E of Sungai Penuh, Indonesia",2025-10-10 05:25:02.799,-2.1054,102.0061
+USGS,Earthquake,2.83,"15 km E of Coso Junction, CA",2025-10-10 04:39:09.790,36.0355,-117.7805
+USGS,Earthquake,4.4,"56 km E of Santiago, Philippines",2025-10-10 04:02:47.209,7.1935,127.077
+USGS,Earthquake,4.8,"24 km E of Santiago, Philippines",2025-10-10 03:53:53.502,7.2695,126.7912
+USGS,Earthquake,5.5,"35 km ESE of Manay, Philippines",2025-10-10 03:32:15.738,7.0638,126.8218
+USGS,Earthquake,4.9,"33 km ESE of Santiago, Philippines",2025-10-10 03:23:03.248,7.127,126.8338
+USGS,Earthquake,4.8,"29 km ESE of Manay, Philippines",2025-10-10 03:17:10.867,7.1171,126.7917
+USGS,Earthquake,4.8,"52 km ESE of San Ignacio, Philippines",2025-10-10 03:10:18.216,6.914,126.9212
+USGS,Earthquake,4.8,"southwest of Sumatra, Indonesia",2025-10-10 03:01:53.006,-7.3482,102.5355
+USGS,Earthquake,4.6,"202 km SE of Lorengau, Papua New Guinea",2025-10-10 02:36:18.853,-3.3261,148.5616
+USGS,Earthquake,5.1,south of the Fiji Islands,2025-10-10 02:15:04.887,-24.0734,-177.0863
+USGS,Earthquake,5.6,"36 km ESE of San Ignacio, Philippines",2025-10-10 02:11:44.943,6.9947,126.7969
+USGS,Earthquake,6.3,"134 km SE of Lorengau, Papua New Guinea",2025-10-10 02:08:10.703,-3.0262,147.9689
+USGS,Earthquake,5.9,"40 km ESE of Manay, Philippines",2025-10-10 01:51:15.392,7.1014,126.8879
+USGS,Earthquake,7.4,"20 km E of Santiago, Philippines",2025-10-10 01:43:59.731,7.2649,126.7545
+USGS,Earthquake,2.69,"30 km W of Puerto Real, Puerto Rico",2025-10-10 01:08:22.270,18.1081666666667,-67.4711666666667
+USGS,Earthquake,4.8,"162 km WSW of Pyay, Burma (Myanmar)",2025-10-10 00:23:55.972,18.5183,93.7187
+USGS,Earthquake,3.0,"232 km WNW of Bandon, Oregon",2025-10-10 00:00:06.613,43.6111,-127.1969
+USGS,Earthquake,2.8,"12 km W of Stanton, Texas",2025-10-09 22:58:41.313,32.119,-101.925
+USGS,Earthquake,2.58,"42 km NE of Ensenada, B.C., MX",2025-10-09 21:01:23.450,32.1673333,-116.3533333
+USGS,Earthquake,4.6,"76 km SSW of Aitape, Papua New Guinea",2025-10-09 20:10:43.456,-3.7446,142.0279
+USGS,Earthquake,4.8,"36 km ENE of Luganville, Vanuatu",2025-10-09 20:08:45.508,-15.3721,167.4705
+USGS,Earthquake,2.8,"56 km NE of Valmy, Nevada",2025-10-09 20:04:45.901,41.195,-116.7188
+USGS,Earthquake,2.9,"10 km ENE of Moose Creek, Alaska",2025-10-09 19:55:00.939,64.756,-146.9448
+USGS,Earthquake,2.6,"57 km S of Whites City, New Mexico",2025-10-09 18:41:31.028,31.654,-104.398
+USGS,Earthquake,2.5,"22 km NNE of Yerington, Nevada",2025-10-09 18:20:09.483,39.1606,-119.0317
+USGS,Earthquake,3.1,"12 km W of Stanton, Texas",2025-10-09 17:42:44.522,32.119,-101.925
+USGS,Earthquake,4.5,"134 km E of Ozernovskiy, Russia",2025-10-09 15:24:04.408,51.5117,158.4334
+USGS,Earthquake,2.5,"36 km ESE of Malaga, New Mexico",2025-10-09 15:17:03.044,32.1219,-103.6995
+USGS,Earthquake,5.4,southwest of Africa,2025-10-09 15:03:00.142,-52.2529,14.3796
+USGS,Earthquake,5.1,southwest of Africa,2025-10-09 14:45:07.125,-52.0662,14.4213
+USGS,Earthquake,2.6,"53 km ENE of Pedro Bay, Alaska",2025-10-09 13:36:26.213,59.8926,-153.1809
+USGS,Earthquake,6.1,"120 km E of Ozernovskiy, Russia",2025-10-09 13:28:44.402,51.686,158.212
+USGS,Earthquake,5.1,south of the Kermadec Islands,2025-10-09 13:22:52.152,-33.9818,-178.7133
+USGS,Earthquake,2.48,"1 km ENE of Maria Antonia, Puerto Rico",2025-10-09 12:46:39.050,17.9868333333333,-66.8728333333333
+USGS,Earthquake,2.59,"5 km W of Brawley, CA",2025-10-09 11:30:08.310,32.9751667,-115.5868333
+USGS,Earthquake,2.57,"7 km S of Guánica, Puerto Rico",2025-10-09 11:06:18.750,17.9063333333333,-66.9018333333333
+USGS,Earthquake,2.47,"3 km ESE of Berkeley, CA",2025-10-09 10:55:35.260,37.8583335876465,-122.240837097168
+USGS,Earthquake,3.7,"4 km WSW of Houston, Alaska",2025-10-09 09:24:17.609,61.6103,-149.8887
+USGS,Earthquake,3.38,"84 km N of Culebra, Puerto Rico",2025-10-09 08:36:30.840,19.0608333333333,-65.3741666666667
+USGS,Earthquake,2.71,"10 km WNW of Kalaoa, Hawaii",2025-10-09 08:28:32.210,19.7805,-156.0655
+USGS,Earthquake,3.4,"85 km ENE of Cruz Bay, U.S. Virgin Islands",2025-10-09 07:24:02.600,18.7261666666667,-64.0958333333333
+USGS,Earthquake,2.6,"53 km ESE of Chignik, Alaska",2025-10-09 07:22:35.880,56.1495,-157.5834
+USGS,Earthquake,5.5,"210 km N of Daocheng, China",2025-10-09 05:17:40.733,30.9113,99.92
+USGS,Earthquake,4.0,"48 km SE of San Agustín de Valle Fértil, Argentina",2025-10-09 04:10:56.408,-30.9045,-67.0711
+USGS,Earthquake,2.72,"23 km SSW of Mammoth, Wyoming",2025-10-09 04:06:47.140,44.7996666666667,-110.8565
+USGS,Earthquake,2.8000000000000003,"21 km NNW of Hoodsport, Washington",2025-10-09 00:56:58.820,47.56783333333333,-123.2985
+USGS,Earthquake,4.6,"56 km WNW of Isangel, Vanuatu",2025-10-09 00:27:07.763,-19.3493,168.7851
+USGS,Earthquake,4.9,"17 km SW of Emet, Turkey",2025-10-08 23:54:05.825,39.2473,29.0904
+USGS,Earthquake,3.3,"79 km ENE of Tonopah, Nevada",2025-10-08 22:53:47.527,38.4653,-116.4701
+USGS,Earthquake,2.7,"58 km ENE of Yakutat, Alaska",2025-10-08 21:25:24.805,59.7684,-138.7833
+USGS,Earthquake,2.5,"15 km WNW of Happy Valley, Alaska",2025-10-08 20:20:41.599,60.0203,-151.9657
+USGS,Earthquake,3.1,"57 km ENE of Yakutat, Alaska",2025-10-08 20:11:39.197,59.8012,-138.8317
+USGS,Earthquake,2.47,"7 km NW of Pinnacles, CA",2025-10-08 19:59:18.930,36.5719985961914,-121.202499389648
+USGS,Earthquake,4.5,"101 km SW of Atka, Alaska",2025-10-08 19:38:50.708,51.5537,-175.2508
+USGS,Earthquake,4.6,"78 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-08 19:26:43.833,53.1995,159.7713
+USGS,Earthquake,4.9,"43 km SE of Petropavlovsk-Kamchatsky, Russia",2025-10-08 18:39:37.838,52.812,159.1202
+USGS,Earthquake,3.35,"6 km NNE of Puako, Hawaii",2025-10-08 17:23:53.400,20.0278333333333,-155.810833333333
+USGS,Earthquake,4.2,"71 km W of San Antonio de los Cobres, Argentina",2025-10-08 17:22:47.974,-24.2533,-67.0237
+USGS,Earthquake,2.6,"61 km SW of Skwentna, Alaska",2025-10-08 16:38:26.777,61.6848,-152.3695
+USGS,Earthquake,3.3,"142 km S of Akhiok, Alaska",2025-10-08 14:27:26.287,55.6746,-153.8839
+USGS,Earthquake,2.7,"13 km E of Pāhala, Hawaii",2025-10-08 14:04:03.530,19.2245,-155.3535
+USGS,Earthquake,2.59,"10 km ENE of Desert Hot Springs, CA",2025-10-08 12:28:36.010,34.0091667,-116.4056667
+USGS,Earthquake,4.6,"46 km SSW of Champerico, Guatemala",2025-10-08 11:58:02.957,13.8993,-92.068

@@ -1,0 +1,646 @@
+source,event,severity,area,headline,lat,lon,magnitude,place,time,acq_datetime,brightness,confidence,frp
+NOAA,Flood Advisory,Minor,"Archuleta, CO",Flood Advisory issued October 14 at 9:46PM MDT until October 16 at 12:00PM MDT by NWS Grand Junction CO,37.27833331666667,-106.95166663333336,,,,,,,
+NOAA,Flood Warning,Severe,"Horry, SC; Marion, SC",Flood Warning issued October 14 at 9:39PM EDT until October 18 at 2:00PM EDT by NWS Wilmington NC,34.1042857,-79.23999997142856,,,,,,,
+NOAA,Flood Warning,Severe,"Lake, FL; Volusia, FL",Flood Warning issued October 14 at 9:20PM EDT by NWS Melbourne FL,29.185999999999996,-81.53599998,,,,,,,
+NOAA,Flood Warning,Severe,"Archuleta, CO; Hinsdale, CO",Flood Warning issued October 13 at 12:19PM MDT until October 15 at 3:00PM MDT by NWS Grand Junction CO,37.28714285714286,-107.29714282857142,,,,,,,
+NOAA,Flood Warning,Severe,"Brown, SD; Spink, SD",Flood Warning issued October 13 at 8:18AM CDT until October 19 at 7:00PM CDT by NWS Aberdeen SD,45.372,-98.298,,,,,,,
+USGS,Earthquake,,,,67.6027,-145.4359,2.5,"58 km S of Arctic Village, Alaska",2025-10-15 11:28:11.293,,,,
+USGS,Earthquake,,,,7.2551,141.5284,5.4,"299 km SSE of Fais, Micronesia",2025-10-15 10:22:09.320,,,,
+USGS,Earthquake,,,,7.1768,127.1802,4.9,"68 km E of Santiago, Philippines",2025-10-15 07:44:54.656,,,,
+USGS,Earthquake,,,,51.5274,159.8309,5.2,"184 km SSE of Vilyuchinsk, Russia",2025-10-15 05:57:03.192,,,,
+USGS,Earthquake,,,,61.7294,-147.4562,4.0,"13 km SE of Glacier View, Alaska",2025-10-15 03:30:44.862,,,,
+USGS,Earthquake,,,,17.6975,-66.0265,2.5,"29 km S of Arroyo, Puerto Rico",2025-10-15 02:02:41.990,,,,
+USGS,Earthquake,,,,54.5337,-159.9784,3.6,"95 km SSE of Sand Point, Alaska",2025-10-15 01:24:10.207,,,,
+USGS,Earthquake,,,,-6.5653,129.7205,4.4,Banda Sea,2025-10-15 00:30:00.341,,,,
+USGS,Earthquake,,,,19.0115,-66.9035,3.68,"57 km NNE of Isabela, Puerto Rico",2025-10-15 00:11:03.180,,,,
+USGS,Earthquake,,,,-17.6567,-71.6652,4.0,"34 km W of Pacocha, Peru",2025-10-15 00:05:12.567,,,,
+USGS,Earthquake,,,,30.3762,138.2748,4.5,"Izu Islands, Japan region",2025-10-14 23:29:10.333,,,,
+USGS,Earthquake,,,,-9.1429,125.9744,4.6,"38 km ESE of Same, Timor Leste",2025-10-14 22:10:45.813,,,,
+USGS,Earthquake,,,,-6.2895,146.5762,4.6,"66 km NW of Lae, Papua New Guinea",2025-10-14 21:58:02.765,,,,
+USGS,Earthquake,,,,37.7121666666667,-113.0915,2.52,"4 km NW of Cedar City, Utah",2025-10-14 20:58:26.300,,,,
+USGS,Earthquake,,,,56.5079,-154.7976,2.5,"61 km SW of Akhiok, Alaska",2025-10-14 20:58:20.352,,,,
+USGS,Earthquake,,,,-12.0308,166.4903,4.9,"163 km SSE of Lata, Solomon Islands",2025-10-14 20:48:19.048,,,,
+USGS,Earthquake,,,,-6.8131,146.9234,4.7,"12 km SW of Lae, Papua New Guinea",2025-10-14 20:38:44.395,,,,
+USGS,Earthquake,,,,13.7865,39.8097,4.2,"48 km NE of Mek'ele, Ethiopia",2025-10-14 20:22:40.279,,,,
+USGS,Earthquake,,,,31.65,-104.398,2.9,"58 km S of Whites City, New Mexico",2025-10-14 20:18:09.877,,,,
+USGS,Earthquake,,,,31.652,-104.4,2.8,"58 km S of Whites City, New Mexico",2025-10-14 20:10:53.655,,,,
+USGS,Earthquake,,,,-3.7244,154.0187,5.3,"206 km ENE of Kokopo, Papua New Guinea",2025-10-14 19:32:40.938,,,,
+USGS,Earthquake,,,,7.5247,127.2908,4.8,"78 km E of Baculin, Philippines",2025-10-14 19:26:13.805,,,,
+USGS,Earthquake,,,,29.5493,81.2298,4.6,"42 km NE of Dipayal, Nepal",2025-10-14 19:23:30.915,,,,
+USGS,Earthquake,,,,31.653,-104.4,3.9,"57 km S of Whites City, New Mexico",2025-10-14 19:19:12.263,,,,
+USGS,Earthquake,,,,31.651,-104.394,2.8,"58 km S of Whites City, New Mexico",2025-10-14 19:09:56.203,,,,
+USGS,Earthquake,,,,56.6736,-150.2813,3.2,"159 km SE of Chiniak, Alaska",2025-10-14 18:42:00.032,,,,
+USGS,Earthquake,,,,7.358,127.0007,4.9,"47 km ESE of Baculin, Philippines",2025-10-14 18:17:14.900,,,,
+USGS,Earthquake,,,,7.4818,127.308,4.9,"79 km E of Baculin, Philippines",2025-10-14 17:23:55.989,,,,
+USGS,Earthquake,,,,-20.202,-69.0889,5.2,"61 km ENE of La Tirana, Chile",2025-10-14 17:10:17.387,,,,
+USGS,Earthquake,,,,19.9438,-109.4064,4.8,Revilla Gigedo Islands region,2025-10-14 16:20:52.713,,,,
+USGS,Earthquake,,,,52.4871,158.981,4.3,"62 km SE of Vilyuchinsk, Russia",2025-10-14 16:12:27.681,,,,
+USGS,Earthquake,,,,-12.7502,166.5776,4.6,"163 km NW of Sola, Vanuatu",2025-10-14 15:42:55.937,,,,
+USGS,Earthquake,,,,36.6287,70.9899,4.1,"29 km SSE of Jurm, Afghanistan",2025-10-14 15:23:21.022,,,,
+USGS,Earthquake,,,,-6.3309,130.8498,4.3,"224 km WSW of Tual, Indonesia",2025-10-14 15:17:29.263,,,,
+USGS,Earthquake,,,,43.643,147.7374,4.4,"83 km ESE of Shikotan, Russia",2025-10-14 13:05:48.308,,,,
+USGS,Earthquake,,,,61.6619,-146.1451,2.6,"47 km S of Tolsona, Alaska",2025-10-14 11:45:55.025,,,,
+USGS,Earthquake,,,,5.7775,126.9259,4.5,"104 km SE of Pondaguitan, Philippines",2025-10-14 10:13:00.122,,,,
+USGS,Earthquake,,,,-4.5447,153.0547,4.6,"90 km ESE of Kokopo, Papua New Guinea",2025-10-14 08:57:22.882,,,,
+USGS,Earthquake,,,,37.4298324584961,-121.280830383301,2.53,"14 km WSW of Patterson, CA",2025-10-14 08:44:43.820,,,,
+USGS,Earthquake,,,,28.615,-100.181,2.7,"17 km NE of El Indio, Texas",2025-10-14 08:18:28.419,,,,
+USGS,Earthquake,,,,62.763,-149.6381,2.7,"42 km NE of Chase, Alaska",2025-10-14 08:12:01.682,,,,
+USGS,Earthquake,,,,31.66,-104.4,3.2,"57 km S of Whites City, New Mexico",2025-10-14 05:56:04.979,,,,
+USGS,Earthquake,,,,-6.4889,130.0426,4.4,Banda Sea,2025-10-14 05:03:28.891,,,,
+USGS,Earthquake,,,,-21.88,-68.64,4.8,"70 km NNE of Calama, Chile",2025-10-14 04:43:34.719,,,,
+USGS,Earthquake,,,,53.6643,160.5314,4.8,"143 km ENE of Petropavlovsk-Kamchatsky, Russia",2025-10-14 03:47:44.114,,,,
+USGS,Earthquake,,,,44.9257,-73.467,2.6,"4 km NNW of Chazy, New York",2025-10-14 03:39:25.507,,,,
+USGS,Earthquake,,,,39.605,139.5058,4.6,"51 km SW of Tennō, Japan",2025-10-14 03:34:24.223,,,,
+USGS,Earthquake,,,,41.6443,81.416,4.6,"107 km ENE of Aksu, China",2025-10-14 03:15:27.067,,,,
+USGS,Earthquake,,,,-18.3774,-67.0477,4.2,"8 km W of Poopó, Bolivia",2025-10-14 03:01:49.780,,,,
+USGS,Earthquake,,,,7.4155,126.7836,4.9,"22 km E of Baculin, Philippines",2025-10-14 02:39:05.447,,,,
+USGS,Earthquake,,,,7.3466,127.2027,5.5,"69 km E of Baculin, Philippines",2025-10-14 02:00:11.521,,,,
+USGS,Earthquake,,,,18.9995,-67.7185,2.92,"85 km ENE of Punta Cana, Dominican Republic",2025-10-14 00:09:56.020,,,,
+USGS,Earthquake,,,,-21.1265,-69.0054,4.1,"78 km W of Ollagüe, Chile",2025-10-13 23:14:15.282,,,,
+USGS,Earthquake,,,,18.4641,-68.8663,3.91,"11 km ENE of La Romana, Dominican Republic",2025-10-13 22:41:41.390,,,,
+USGS,Earthquake,,,,43.4103,-126.8669,3.1,"202 km W of Bandon, Oregon",2025-10-13 21:27:59.732,,,,
+USGS,Earthquake,,,,32.3365,-104.643,3.4,"30 km NW of Whites City, New Mexico",2025-10-13 20:12:13.288,,,,
+USGS,Earthquake,,,,-32.0499,-69.4216,4.8,"79 km S of Calingasta, Argentina",2025-10-13 18:58:40.258,,,,
+USGS,Earthquake,,,,50.6405,156.9695,4.5,"59 km E of Severo-Kuril’sk, Russia",2025-10-13 18:49:57.292,,,,
+USGS,Earthquake,,,,50.0975,156.6747,4.5,"75 km SSE of Severo-Kuril’sk, Russia",2025-10-13 17:40:01.308,,,,
+USGS,Earthquake,,,,60.1979,-153.7065,4.1,"33 km E of Port Alsworth, Alaska",2025-10-13 16:51:16.956,,,,
+USGS,Earthquake,,,,40.3508338928223,-124.737167358398,2.77,"38 km W of Petrolia, CA",2025-10-13 16:47:00.210,,,,
+USGS,Earthquake,,,,-19.092,-174.6454,4.6,"80 km NNW of Fangale’ounga, Tonga",2025-10-13 16:40:22.211,,,,
+USGS,Earthquake,,,,40.5467,-127.16,3.2,"245 km W of Ferndale, California",2025-10-13 16:33:14.704,,,,
+USGS,Earthquake,,,,51.348,159.7371,4.5,"198 km SSE of Vilyuchinsk, Russia",2025-10-13 16:27:42.209,,,,
+USGS,Earthquake,,,,58.9059,-138.6068,2.9,"95 km SE of Yakutat, Alaska",2025-10-13 15:59:25.733,,,,
+USGS,Earthquake,,,,36.7158,74.5704,4.7,"45 km NNW of Barishal, Pakistan",2025-10-13 15:58:28.858,,,,
+USGS,Earthquake,,,,17.986,-66.8396666666667,2.47,"2 km WSW of Indios, Puerto Rico",2025-10-13 12:59:18.120,,,,
+USGS,Earthquake,,,,7.1111,126.988,4.5,"49 km ESE of Santiago, Philippines",2025-10-13 12:24:54.750,,,,
+USGS,Earthquake,,,,7.2482,141.6049,5.9,"State of Yap, Federated States of Micronesia",2025-10-13 11:11:00.352,,,,
+USGS,Earthquake,,,,-21.9944,-68.7016,4.3,"56 km NNE of Calama, Chile",2025-10-13 10:52:43.378,,,,
+USGS,Earthquake,,,,17.9858333333333,-67.0096666666667,2.45,"4 km ENE of La Parguera, Puerto Rico",2025-10-13 09:12:01.070,,,,
+USGS,Earthquake,,,,-10.3071,161.2627,4.9,"73 km WNW of Kirakira, Solomon Islands",2025-10-13 09:10:31.549,,,,
+USGS,Earthquake,,,,-21.0283,169.7044,4.5,"170 km SSE of Isangel, Vanuatu",2025-10-13 08:59:21.379,,,,
+USGS,Earthquake,,,,-35.6075,-179.3476,4.8,east of the North Island of New Zealand,2025-10-13 08:35:35.683,,,,
+USGS,Earthquake,,,,18.5555,-64.6555,3.44,"28 km NNE of Cruz Bay, U.S. Virgin Islands",2025-10-13 07:27:09.720,,,,
+USGS,Earthquake,,,,40.242000579834,-124.176834106445,2.61,"13 km SE of Petrolia, CA",2025-10-13 07:14:38.290,,,,
+USGS,Earthquake,,,,-7.2291,114.1833,4.9,"32 km SE of Kalianget, Indonesia",2025-10-13 07:10:30.079,,,,
+USGS,Earthquake,,,,22.4329,94.5236,4.5,"72 km WNW of Monywa, Burma (Myanmar)",2025-10-13 05:40:30.288,,,,
+USGS,Earthquake,,,,17.8423333333333,-66.8575,2.49,"15 km SSE of Guánica, Puerto Rico",2025-10-13 05:40:20.390,,,,
+USGS,Earthquake,,,,18.3126666666667,-67.5573333333333,3.07,"32 km W of Rincón, Puerto Rico",2025-10-13 04:54:30.350,,,,
+USGS,Earthquake,,,,37.4368324279785,-118.875,2.57,"22 km SW of Toms Place, CA",2025-10-13 03:35:14.220,,,,
+USGS,Earthquake,,,,37.4345016479492,-118.879997253418,2.57,"23 km SW of Toms Place, CA",2025-10-13 03:31:38.410,,,,
+USGS,Earthquake,,,,38.5931,142.5944,4.7,"92 km SE of Ōfunato, Japan",2025-10-13 03:25:44.134,,,,
+USGS,Earthquake,,,,55.4768,-158.6394,3.4,"57 km SSE of Perryville, Alaska",2025-10-13 03:06:54.179,,,,
+USGS,Earthquake,,,,60.2202,-150.7827,4.2,"30 km ESE of Kasilof, Alaska",2025-10-13 02:52:30.772,,,,
+USGS,Earthquake,,,,-58.9889,-25.4247,4.9,South Sandwich Islands region,2025-10-13 02:40:34.154,,,,
+USGS,Earthquake,,,,-35.5109,-179.3657,4.6,east of the North Island of New Zealand,2025-10-13 02:23:21.209,,,,
+USGS,Earthquake,,,,-30.6574,-71.6865,4.9,"47 km W of Ovalle, Chile",2025-10-13 01:28:07.898,,,,
+USGS,Earthquake,,,,-30.6656,-71.6729,4.4,"45 km W of Ovalle, Chile",2025-10-13 01:11:33.886,,,,
+USGS,Earthquake,,,,48.9057,154.8053,5.6,"218 km SSW of Severo-Kuril’sk, Russia",2025-10-13 01:10:10.171,,,,
+USGS,Earthquake,,,,51.0302,158.0493,5.2,"119 km ESE of Ozernovskiy, Russia",2025-10-13 01:09:44.062,,,,
+USGS,Earthquake,,,,18.9328333333333,-64.7911666666667,3.14,"66 km N of Cruz Bay, U.S. Virgin Islands",2025-10-13 00:48:59.600,,,,
+USGS,Earthquake,,,,18.731,-67.2918333333333,3.32,"33 km NW of San Antonio, Puerto Rico",2025-10-12 23:57:40.380,,,,
+USGS,Earthquake,,,,34.0312,23.2968,4.0,"114 km SW of Kastrí, Greece",2025-10-12 23:11:16.415,,,,
+USGS,Earthquake,,,,-7.2289,120.4138,4.2,"151 km NNE of Labuan Bajo, Indonesia",2025-10-12 23:03:39.094,,,,
+USGS,Earthquake,,,,32.326,-101.082,2.9,"7 km WSW of Westbrook, Texas",2025-10-12 23:00:06.517,,,,
+USGS,Earthquake,,,,-9.2064,124.1397,4.3,"26 km W of Pante Makasar, Timor Leste",2025-10-12 22:30:34.224,,,,
+USGS,Earthquake,,,,-4.7143,122.6421,4.6,"15 km NW of Katobu, Indonesia",2025-10-12 22:08:58.950,,,,
+USGS,Earthquake,,,,18.918,-65.2591666666667,3.21,"68 km N of Culebra, Puerto Rico",2025-10-12 21:37:26.890,,,,
+USGS,Earthquake,,,,19.3743333333333,-67.3831666666667,3.23,"102 km NNW of San Antonio, Puerto Rico",2025-10-12 21:09:47.380,,,,
+USGS,Earthquake,,,,59.9394,-153.8897,2.7,"20 km NE of Pedro Bay, Alaska",2025-10-12 20:15:14.192,,,,
+USGS,Earthquake,,,,57.1359,-33.8459,4.6,Reykjanes Ridge,2025-10-12 19:06:09.003,,,,
+USGS,Earthquake,,,,58.0959,-156.3064,2.6,"64 km ESE of Egegik, Alaska",2025-10-12 18:50:55.834,,,,
+USGS,Earthquake,,,,56.9192,-33.5127,4.6,Reykjanes Ridge,2025-10-12 18:27:48.451,,,,
+USGS,Earthquake,,,,52.5385,159.0215,4.5,"60 km SE of Vilyuchinsk, Russia",2025-10-12 18:11:04.164,,,,
+USGS,Earthquake,,,,7.2708,127.4028,4.5,"91 km E of Santiago, Philippines",2025-10-12 17:37:53.093,,,,
+USGS,Earthquake,,,,10.9457,123.9375,5.7,"2 km SSE of Tambongon, Philippines",2025-10-12 17:05:59.657,,,,
+USGS,Earthquake,,,,34.6655,23.4677,4.4,"59 km WSW of Kastrí, Greece",2025-10-12 16:47:32.716,,,,
+USGS,Earthquake,,,,-32.6039,-70.1041,4.6,"52 km ENE of Los Andes, Chile",2025-10-12 16:42:39.686,,,,
+USGS,Earthquake,,,,18.39,-68.9206666666667,3.33,"6 km SE of La Romana, Dominican Republic",2025-10-12 15:44:15.030,,,,
+USGS,Earthquake,,,,19.2368,-68.7333,3.69,"43 km NE of Miches, Dominican Republic",2025-10-12 14:18:51.010,,,,
+USGS,Earthquake,,,,19.5498,-68.829,4.07,"65 km NE of Samaná, Dominican Republic",2025-10-12 13:35:18.990,,,,
+USGS,Earthquake,,,,57.4338,-153.1285,3.0,"27 km NNE of Old Harbor, Alaska",2025-10-12 13:28:53.828,,,,
+USGS,Earthquake,,,,19.096,-64.6668333333333,3.44,"85 km N of Cruz Bay, U.S. Virgin Islands",2025-10-12 10:50:50.250,,,,
+USGS,Earthquake,,,,1.5366,126.9549,4.5,"95 km NNW of Ternate, Indonesia",2025-10-12 10:23:59.337,,,,
+USGS,Earthquake,,,,8.3514,126.9497,4.4,"60 km ENE of Barcelona, Philippines",2025-10-12 09:44:26.701,,,,
+USGS,Earthquake,,,,53.0475,161.4288,4.7,"187 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-12 07:56:35.436,,,,
+USGS,Earthquake,,,,30.4852,103.1367,4.9,"32 km WNW of Linqiong, China",2025-10-12 07:21:43.771,,,,
+USGS,Earthquake,,,,44.567,-112.222833333333,2.6,"23 km N of Spencer, Idaho",2025-10-12 06:54:17.950,,,,
+USGS,Earthquake,,,,32.336,-101.07,4.3,"5 km WSW of Westbrook, Texas",2025-10-12 06:08:59.092,,,,
+USGS,Earthquake,,,,38.6623344421387,-119.572334289551,2.83,"18 km NNW of Walker, CA",2025-10-12 06:08:24.350,,,,
+USGS,Earthquake,,,,37.0068,28.4378,4.4,"11 km S of Ula, Turkey",2025-10-12 03:40:59.272,,,,
+USGS,Earthquake,,,,75.9176,6.9195,4.8,Greenland Sea,2025-10-12 03:13:11.673,,,,
+USGS,Earthquake,,,,60.5456,-149.4292,2.9,"7 km NNW of Moose Pass, Alaska",2025-10-12 03:11:13.394,,,,
+USGS,Earthquake,,,,-2.7344,139.3097,5.0,"147 km W of Abepura, Indonesia",2025-10-12 03:00:35.591,,,,
+USGS,Earthquake,,,,58.8931,-134.7828,3.0,"45 km SE of Mud Bay, Alaska",2025-10-12 02:44:06.395,,,,
+USGS,Earthquake,,,,17.4321,-94.3667,4.8,"14 km E of Niños Héroes, Mexico",2025-10-12 02:26:24.681,,,,
+USGS,Earthquake,,,,7.2427,127.0336,4.6,"51 km E of Santiago, Philippines",2025-10-12 01:25:34.632,,,,
+USGS,Earthquake,,,,53.1372,159.8303,4.4,"80 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-12 01:20:30.408,,,,
+USGS,Earthquake,,,,60.7343,-148.9932,2.6,"17 km WSW of Whittier, Alaska",2025-10-12 00:48:38.499,,,,
+USGS,Earthquake,,,,-5.0995,-80.623,4.4,"10 km N of Piura, Peru",2025-10-11 23:52:31.134,,,,
+USGS,Earthquake,,,,32.119,-101.922,2.7,"12 km W of Stanton, Texas",2025-10-11 23:50:05.954,,,,
+USGS,Earthquake,,,,12.3055,144.4819,4.7,"108 km S of Merizo Village, Guam",2025-10-11 23:20:50.762,,,,
+USGS,Earthquake,,,,51.7293,160.7335,4.5,"206 km SE of Petropavlovsk-Kamchatsky, Russia",2025-10-11 22:18:22.400,,,,
+USGS,Earthquake,,,,13.8263,39.8083,4.5,"51 km NE of Mek'ele, Ethiopia",2025-10-11 21:41:28.580,,,,
+USGS,Earthquake,,,,13.9281,39.7667,4.3,"50 km SE of Ādīgrat, Ethiopia",2025-10-11 21:23:13.390,,,,
+USGS,Earthquake,,,,58.4957,-153.9702,2.7,"78 km NW of Aleneva, Alaska",2025-10-11 20:43:47.405,,,,
+USGS,Earthquake,,,,7.6918,126.9787,4.9,"47 km E of Kinablangan, Philippines",2025-10-11 19:28:28.640,,,,
+USGS,Earthquake,,,,60.6481,-147.3988,2.6,"46 km WSW of Tatitlek, Alaska",2025-10-11 18:47:44.060,,,,
+USGS,Earthquake,,,,13.9766,39.7622,4.8,"46 km SE of Ādīgrat, Ethiopia",2025-10-11 18:38:22.249,,,,
+USGS,Earthquake,,,,-60.2617,-61.0984,5.1,Drake Passage,2025-10-11 18:29:36.215,,,,
+USGS,Earthquake,,,,60.7086,-147.3961,3.5,"42 km WSW of Tatitlek, Alaska",2025-10-11 18:18:46.038,,,,
+USGS,Earthquake,,,,-6.258,130.3564,4.4,"274 km WSW of Tual, Indonesia",2025-10-11 17:59:19.343,,,,
+USGS,Earthquake,,,,13.7613,39.8494,5.6,"49 km NE of Mek'ele, Ethiopia",2025-10-11 16:18:25.511,,,,
+USGS,Earthquake,,,,13.8185,39.946,5.2,"62 km NE of Mek'ele, Ethiopia",2025-10-11 16:01:59.270,,,,
+USGS,Earthquake,,,,-6.1703,149.9302,4.7,"42 km E of Kandrian, Papua New Guinea",2025-10-11 15:04:05.940,,,,
+USGS,Earthquake,,,,-31.5685,-178.0277,4.9,Kermadec Islands region,2025-10-11 14:56:53.552,,,,
+USGS,Earthquake,,,,31.1252,71.0598,4.6,"15 km WSW of Fatehpur, Pakistan",2025-10-11 14:53:59.303,,,,
+USGS,Earthquake,,,,8.92,126.3963,6.0,"10 km ENE of Aras-asan, Philippines",2025-10-11 14:32:58.526,,,,
+USGS,Earthquake,,,,10.5951,125.2408,4.5,"6 km ENE of Hingatungan, Philippines",2025-10-11 13:54:58.808,,,,
+USGS,Earthquake,,,,51.0073,-179.8482,4.5,"243 km WSW of Adak, Alaska",2025-10-11 13:51:18.225,,,,
+USGS,Earthquake,,,,-56.3773,-26.5568,5.5,South Sandwich Islands region,2025-10-11 13:08:00.119,,,,
+USGS,Earthquake,,,,6.8025,127.0286,4.5,"69 km ESE of San Ignacio, Philippines",2025-10-11 12:47:42.866,,,,
+USGS,Earthquake,,,,61.0335,-151.3746,3.1,"13 km WSW of Tyonek, Alaska",2025-10-11 12:29:18.436,,,,
+USGS,Earthquake,,,,50.3263,156.6974,5.8,"56 km SE of Severo-Kuril’sk, Russia",2025-10-11 12:25:59.387,,,,
+USGS,Earthquake,,,,18.7848333333333,-65.4618333333333,2.9,"52 km NNE of Luquillo, Puerto Rico",2025-10-11 12:14:36.280,,,,
+USGS,Earthquake,,,,13.7867,39.7999,4.2,"47 km NE of Mek'ele, Ethiopia",2025-10-11 12:07:33.115,,,,
+USGS,Earthquake,,,,42.3926,-126.1299,2.7,"139 km WSW of Port Orford, Oregon",2025-10-11 12:05:32.723,,,,
+USGS,Earthquake,,,,40.685,-114.9237,2.6,"47 km E of Lamoille, Nevada",2025-10-11 11:21:36.666,,,,
+USGS,Earthquake,,,,7.2713,126.798,5.5,"24 km E of Santiago, Philippines",2025-10-11 10:27:23.935,,,,
+USGS,Earthquake,,,,15.2385,120.44,4.9,"10 km S of Santa Juliana, Philippines",2025-10-11 09:32:16.843,,,,
+USGS,Earthquake,,,,37.2351684570312,-119.533668518066,2.51,"2 km WNW of North Fork, CA",2025-10-11 09:05:26.670,,,,
+USGS,Earthquake,,,,34.0258333,-117.118,2.58,"5 km SSE of Mentone, CA",2025-10-11 09:05:00.360,,,,
+USGS,Earthquake,,,,-3.1483,148.4716,5.0,"181 km SE of Lorengau, Papua New Guinea",2025-10-11 08:35:22.348,,,,
+USGS,Earthquake,,,,53.7503,-164.8168,3.7,"76 km SE of Akutan, Alaska",2025-10-11 08:35:09.833,,,,
+USGS,Earthquake,,,,36.093,-89.7828333333333,2.92,"4 km ENE of Steele, Missouri",2025-10-11 08:28:45.290,,,,
+USGS,Earthquake,,,,-56.1829,-26.4921,5.4,South Sandwich Islands region,2025-10-11 08:06:43.741,,,,
+USGS,Earthquake,,,,61.2451,-141.1094,2.7,"99 km ESE of McCarthy, Alaska",2025-10-11 07:10:11.557,,,,
+USGS,Earthquake,,,,7.1159,126.8701,4.6,"37 km ESE of Santiago, Philippines",2025-10-11 07:02:35.696,,,,
+USGS,Earthquake,,,,43.5963,-127.0354,3.1,"219 km WNW of Bandon, Oregon",2025-10-11 06:51:24.941,,,,
+USGS,Earthquake,,,,30.3456,138.4539,4.8,"Izu Islands, Japan region",2025-10-11 03:22:00.952,,,,
+USGS,Earthquake,,,,27.1032,103.4597,5.2,"34 km SW of Zhaotong, China",2025-10-11 03:18:16.562,,,,
+USGS,Earthquake,,,,53.2522,159.7815,5.4,"79 km ENE of Petropavlovsk-Kamchatsky, Russia",2025-10-11 03:08:44.640,,,,
+USGS,Earthquake,,,,17.9176666666667,-66.883,2.64,"6 km SSE of Guánica, Puerto Rico",2025-10-11 02:43:35.860,,,,
+USGS,Earthquake,,,,-24.4324,179.8384,4.4,south of the Fiji Islands,2025-10-11 01:54:02.381,,,,
+USGS,Earthquake,,,,17.848,-66.855,2.57,"14 km SSE of Guánica, Puerto Rico",2025-10-11 01:39:43.260,,,,
+USGS,Earthquake,,,,7.0043,126.9131,4.7,"47 km ESE of Manay, Philippines",2025-10-11 01:16:34.821,,,,
+USGS,Earthquake,,,,-60.2488,-61.8182,4.7,Drake Passage,2025-10-11 00:46:16.161,,,,
+USGS,Earthquake,,,,68.053,-155.4637,2.5,"141 km NNE of Kobuk, Alaska",2025-10-11 00:44:13.332,,,,
+USGS,Earthquake,,,,-6.3108,145.723,4.5,"15 km W of Kainantu, Papua New Guinea",2025-10-10 23:39:54.412,,,,
+USGS,Earthquake,,,,-60.3594,-62.3905,4.6,Drake Passage,2025-10-10 23:09:03.617,,,,
+USGS,Earthquake,,,,7.4016,127.0559,5.0,"52 km E of Baculin, Philippines",2025-10-10 22:20:47.634,,,,
+USGS,Earthquake,,,,-60.1049,-62.5368,4.8,Drake Passage,2025-10-10 22:09:48.198,,,,
+USGS,Earthquake,,,,41.7258,142.679,4.3,"48 km S of Urakawa, Japan",2025-10-10 22:06:36.054,,,,
+USGS,Earthquake,,,,-60.0861,-62.4775,5.4,Drake Passage,2025-10-10 21:34:22.435,,,,
+USGS,Earthquake,,,,-60.0413,-62.3553,5.7,Drake Passage,2025-10-10 21:28:42.452,,,,
+USGS,Earthquake,,,,-60.031,-61.5268,4.9,Drake Passage,2025-10-10 21:13:47.581,,,,
+USGS,Earthquake,,,,-60.0289,-62.6546,4.6,Drake Passage,2025-10-10 21:00:01.659,,,,
+USGS,Earthquake,,,,7.1762,127.2601,4.9,"76 km E of Santiago, Philippines",2025-10-10 20:40:13.009,,,,
+USGS,Earthquake,,,,-60.1958,-61.799,7.6,Drake Passage,2025-10-10 20:29:20.591,,,,
+USGS,Earthquake,,,,6.9304,126.9662,4.6,"56 km SE of Manay, Philippines",2025-10-10 19:37:00.039,,,,
+USGS,Earthquake,,,,42.3964,-126.3473,3.0,"156 km WSW of Port Orford, Oregon",2025-10-10 19:02:04.355,,,,
+USGS,Earthquake,,,,7.2319,127.298,4.6,"80 km E of Santiago, Philippines",2025-10-10 18:58:11.084,,,,
+USGS,Earthquake,,,,7.0835,127.0178,4.9,"54 km ESE of Santiago, Philippines",2025-10-10 18:15:19.669,,,,
+USGS,Earthquake,,,,17.5045,122.2656,4.7,"45 km ESE of Lapi, Philippines",2025-10-10 16:54:30.495,,,,
+USGS,Earthquake,,,,7.4209,126.7177,4.6,"15 km ESE of Baculin, Philippines",2025-10-10 16:30:46.326,,,,
+USGS,Earthquake,,,,3.7858,126.6241,4.5,"220 km SE of Sarangani, Philippines",2025-10-10 16:10:34.090,,,,
+USGS,Earthquake,,,,19.0298333333333,-64.693,3.44,"78 km N of Cruz Bay, U.S. Virgin Islands",2025-10-10 15:16:24.050,,,,
+USGS,Earthquake,,,,36.0322,70.6102,4.3,"73 km NNW of Pārūn, Afghanistan",2025-10-10 15:01:17.076,,,,
+USGS,Earthquake,,,,53.8866,-164.0113,4.0,"114 km SSW of False Pass, Alaska",2025-10-10 14:46:29.408,,,,
+USGS,Earthquake,,,,68.7489,-145.6679,3.1,"69 km N of Arctic Village, Alaska",2025-10-10 13:51:54.966,,,,
+USGS,Earthquake,,,,27.1386,103.6442,4.9,"20 km SSW of Zhaotong, China",2025-10-10 13:21:12.802,,,,
+USGS,Earthquake,,,,65.8514,-37.7715,4.7,"27 km NNW of Tasiilaq, Greenland",2025-10-10 13:19:49.372,,,,
+USGS,Earthquake,,,,7.3513,127.1888,5.0,"67 km E of Baculin, Philippines",2025-10-10 13:13:32.485,,,,
+USGS,Earthquake,,,,41.1432,-116.7667,2.6,"49 km NE of Valmy, Nevada",2025-10-10 13:06:31.204,,,,
+USGS,Earthquake,,,,7.4134,127.0663,4.9,"53 km E of Baculin, Philippines",2025-10-10 13:03:58.132,,,,
+USGS,Earthquake,,,,7.0649,127.2314,5.1,"76 km ESE of Santiago, Philippines",2025-10-10 12:49:38.204,,,,
+USGS,Earthquake,,,,7.3418,127.1347,4.8,"61 km ESE of Baculin, Philippines",2025-10-10 12:36:23.643,,,,
+USGS,Earthquake,,,,-55.2238,-29.0845,4.8,South Sandwich Islands region,2025-10-10 12:26:10.921,,,,
+USGS,Earthquake,,,,7.2841,126.9585,4.8,"42 km E of Santiago, Philippines",2025-10-10 12:01:17.420,,,,
+USGS,Earthquake,,,,11.6386,141.6218,5.2,"239 km NNE of Fais, Micronesia",2025-10-10 11:48:01.222,,,,
+USGS,Earthquake,,,,7.2528,127.15,4.8,"63 km E of Santiago, Philippines",2025-10-10 11:47:39.096,,,,
+USGS,Earthquake,,,,50.3802,156.5204,5.6,"43 km SE of Severo-Kuril’sk, Russia",2025-10-10 11:16:02.383,,,,
+USGS,Earthquake,,,,7.1716,126.7553,6.7,"23 km ESE of Santiago, Philippines",2025-10-10 11:12:07.106,,,,
+USGS,Earthquake,,,,-17.6368,-178.7135,4.4,"214 km ENE of Levuka, Fiji",2025-10-10 10:49:09.839,,,,
+USGS,Earthquake,,,,7.1418,126.7548,5.1,"25 km ESE of Manay, Philippines",2025-10-10 10:20:33.387,,,,
+USGS,Earthquake,,,,-6.9375,129.544,5.5,Banda Sea,2025-10-10 10:02:51.536,,,,
+USGS,Earthquake,,,,7.1952,126.8738,5.1,"34 km ESE of Santiago, Philippines",2025-10-10 10:01:03.714,,,,
+USGS,Earthquake,,,,11.4553,141.5675,5.6,"219 km NNE of Fais, Micronesia",2025-10-10 09:43:40.641,,,,
+USGS,Earthquake,,,,6.9978,126.89,5.2,"45 km ESE of Manay, Philippines",2025-10-10 09:43:32.966,,,,
+USGS,Earthquake,,,,7.1851,127.0224,4.9,"50 km ESE of Santiago, Philippines",2025-10-10 09:06:42.397,,,,
+USGS,Earthquake,,,,7.1969,126.7558,4.5,"22 km ESE of Santiago, Philippines",2025-10-10 08:39:27.503,,,,
+USGS,Earthquake,,,,19.1073333333333,-64.5881666666667,3.44,"88 km NNE of Cruz Bay, U.S. Virgin Islands",2025-10-10 07:56:10.310,,,,
+USGS,Earthquake,,,,7.0924,126.9429,4.9,"46 km ESE of Santiago, Philippines",2025-10-10 07:38:42.816,,,,
+USGS,Earthquake,,,,7.009,126.849,5.2,"41 km ESE of Manay, Philippines",2025-10-10 07:24:12.212,,,,
+USGS,Earthquake,,,,7.1656,127.0366,4.7,"52 km ESE of Santiago, Philippines",2025-10-10 07:16:01.686,,,,
+USGS,Earthquake,,,,6.9097,126.8412,4.9,"45 km ESE of San Ignacio, Philippines",2025-10-10 06:32:24.142,,,,
+USGS,Earthquake,,,,13.1742,-87.8711,4.6,"14 km S of Conchagua, El Salvador",2025-10-10 06:27:16.891,,,,
+USGS,Earthquake,,,,-5.0896,133.9173,4.7,"142 km ENE of Tual, Indonesia",2025-10-10 06:09:52.118,,,,
+USGS,Earthquake,,,,7.1838,126.9866,4.9,"47 km ESE of Santiago, Philippines",2025-10-10 06:06:24.032,,,,
+USGS,Earthquake,,,,6.8213,126.9228,5.1,"58 km ESE of Jovellar, Philippines",2025-10-10 05:48:54.718,,,,
+USGS,Earthquake,,,,6.8017,127.0765,5.2,"73 km ESE of San Ignacio, Philippines",2025-10-10 05:47:45.744,,,,
+USGS,Earthquake,,,,-3.2018,148.9217,5.1,"219 km WSW of Kavieng, Papua New Guinea",2025-10-10 05:46:39.771,,,,
+USGS,Earthquake,,,,54.5371,-160.0759,4.5,"93 km SSE of Sand Point, Alaska",2025-10-10 05:42:10.525,,,,
+USGS,Earthquake,,,,-2.1054,102.0061,4.5,"68 km E of Sungai Penuh, Indonesia",2025-10-10 05:25:02.799,,,,
+USGS,Earthquake,,,,36.0355,-117.7805,2.83,"15 km E of Coso Junction, CA",2025-10-10 04:39:09.790,,,,
+USGS,Earthquake,,,,7.1935,127.077,4.4,"56 km E of Santiago, Philippines",2025-10-10 04:02:47.209,,,,
+USGS,Earthquake,,,,7.2695,126.7912,4.8,"24 km E of Santiago, Philippines",2025-10-10 03:53:53.502,,,,
+USGS,Earthquake,,,,7.0638,126.8218,5.5,"35 km ESE of Manay, Philippines",2025-10-10 03:32:15.738,,,,
+USGS,Earthquake,,,,7.127,126.8338,4.9,"33 km ESE of Santiago, Philippines",2025-10-10 03:23:03.248,,,,
+USGS,Earthquake,,,,7.1171,126.7917,4.8,"29 km ESE of Manay, Philippines",2025-10-10 03:17:10.867,,,,
+USGS,Earthquake,,,,6.914,126.9212,4.8,"52 km ESE of San Ignacio, Philippines",2025-10-10 03:10:18.216,,,,
+USGS,Earthquake,,,,-7.3482,102.5355,4.8,"southwest of Sumatra, Indonesia",2025-10-10 03:01:53.006,,,,
+USGS,Earthquake,,,,-3.3261,148.5616,4.6,"202 km SE of Lorengau, Papua New Guinea",2025-10-10 02:36:18.853,,,,
+USGS,Earthquake,,,,-24.0734,-177.0863,5.1,south of the Fiji Islands,2025-10-10 02:15:04.887,,,,
+USGS,Earthquake,,,,6.9947,126.7969,5.6,"36 km ESE of San Ignacio, Philippines",2025-10-10 02:11:44.943,,,,
+USGS,Earthquake,,,,-3.0262,147.9689,6.3,"134 km SE of Lorengau, Papua New Guinea",2025-10-10 02:08:10.703,,,,
+USGS,Earthquake,,,,7.1014,126.8879,5.9,"40 km ESE of Manay, Philippines",2025-10-10 01:51:15.392,,,,
+USGS,Earthquake,,,,7.2649,126.7545,7.4,"20 km E of Santiago, Philippines",2025-10-10 01:43:59.731,,,,
+USGS,Earthquake,,,,18.1081666666667,-67.4711666666667,2.69,"30 km W of Puerto Real, Puerto Rico",2025-10-10 01:08:22.270,,,,
+USGS,Earthquake,,,,18.5183,93.7187,4.8,"162 km WSW of Pyay, Burma (Myanmar)",2025-10-10 00:23:55.972,,,,
+USGS,Earthquake,,,,43.6111,-127.1969,3.0,"232 km WNW of Bandon, Oregon",2025-10-10 00:00:06.613,,,,
+USGS,Earthquake,,,,32.119,-101.925,2.8,"12 km W of Stanton, Texas",2025-10-09 22:58:41.313,,,,
+USGS,Earthquake,,,,32.1673333,-116.3533333,2.58,"42 km NE of Ensenada, B.C., MX",2025-10-09 21:01:23.450,,,,
+USGS,Earthquake,,,,-3.7446,142.0279,4.6,"76 km SSW of Aitape, Papua New Guinea",2025-10-09 20:10:43.456,,,,
+USGS,Earthquake,,,,-15.3721,167.4705,4.8,"36 km ENE of Luganville, Vanuatu",2025-10-09 20:08:45.508,,,,
+USGS,Earthquake,,,,41.195,-116.7188,2.8,"56 km NE of Valmy, Nevada",2025-10-09 20:04:45.901,,,,
+USGS,Earthquake,,,,64.756,-146.9448,2.9,"10 km ENE of Moose Creek, Alaska",2025-10-09 19:55:00.939,,,,
+USGS,Earthquake,,,,31.654,-104.398,2.6,"57 km S of Whites City, New Mexico",2025-10-09 18:41:31.028,,,,
+USGS,Earthquake,,,,39.1606,-119.0317,2.5,"22 km NNE of Yerington, Nevada",2025-10-09 18:20:09.483,,,,
+USGS,Earthquake,,,,32.119,-101.925,3.1,"12 km W of Stanton, Texas",2025-10-09 17:42:44.522,,,,
+USGS,Earthquake,,,,51.5117,158.4334,4.5,"134 km E of Ozernovskiy, Russia",2025-10-09 15:24:04.408,,,,
+USGS,Earthquake,,,,32.1219,-103.6995,2.5,"36 km ESE of Malaga, New Mexico",2025-10-09 15:17:03.044,,,,
+USGS,Earthquake,,,,-52.2529,14.3796,5.4,southwest of Africa,2025-10-09 15:03:00.142,,,,
+USGS,Earthquake,,,,-52.0662,14.4213,5.1,southwest of Africa,2025-10-09 14:45:07.125,,,,
+USGS,Earthquake,,,,59.8926,-153.1809,2.6,"53 km ENE of Pedro Bay, Alaska",2025-10-09 13:36:26.213,,,,
+USGS,Earthquake,,,,51.686,158.212,6.1,"120 km E of Ozernovskiy, Russia",2025-10-09 13:28:44.402,,,,
+USGS,Earthquake,,,,-33.9818,-178.7133,5.1,south of the Kermadec Islands,2025-10-09 13:22:52.152,,,,
+USGS,Earthquake,,,,17.9868333333333,-66.8728333333333,2.48,"1 km ENE of Maria Antonia, Puerto Rico",2025-10-09 12:46:39.050,,,,
+USGS,Earthquake,,,,32.9751667,-115.5868333,2.59,"5 km W of Brawley, CA",2025-10-09 11:30:08.310,,,,
+USGS,Earthquake,,,,17.9063333333333,-66.9018333333333,2.57,"7 km S of Guánica, Puerto Rico",2025-10-09 11:06:18.750,,,,
+USGS,Earthquake,,,,37.8583335876465,-122.240837097168,2.47,"3 km ESE of Berkeley, CA",2025-10-09 10:55:35.260,,,,
+USGS,Earthquake,,,,61.6103,-149.8887,3.7,"4 km WSW of Houston, Alaska",2025-10-09 09:24:17.609,,,,
+USGS,Earthquake,,,,19.0608333333333,-65.3741666666667,3.38,"84 km N of Culebra, Puerto Rico",2025-10-09 08:36:30.840,,,,
+USGS,Earthquake,,,,19.7805,-156.0655,2.71,"10 km WNW of Kalaoa, Hawaii",2025-10-09 08:28:32.210,,,,
+USGS,Earthquake,,,,18.7261666666667,-64.0958333333333,3.4,"85 km ENE of Cruz Bay, U.S. Virgin Islands",2025-10-09 07:24:02.600,,,,
+USGS,Earthquake,,,,56.1495,-157.5834,2.6,"53 km ESE of Chignik, Alaska",2025-10-09 07:22:35.880,,,,
+USGS,Earthquake,,,,30.9113,99.92,5.5,"210 km N of Daocheng, China",2025-10-09 05:17:40.733,,,,
+USGS,Earthquake,,,,-30.9045,-67.0711,4.0,"48 km SE of San Agustín de Valle Fértil, Argentina",2025-10-09 04:10:56.408,,,,
+USGS,Earthquake,,,,44.7996666666667,-110.8565,2.72,"23 km SSW of Mammoth, Wyoming",2025-10-09 04:06:47.140,,,,
+USGS,Earthquake,,,,47.56783333333333,-123.2985,2.8000000000000003,"21 km NNW of Hoodsport, Washington",2025-10-09 00:56:58.820,,,,
+USGS,Earthquake,,,,-19.3493,168.7851,4.6,"56 km WNW of Isangel, Vanuatu",2025-10-09 00:27:07.763,,,,
+USGS,Earthquake,,,,39.2473,29.0904,4.9,"17 km SW of Emet, Turkey",2025-10-08 23:54:05.825,,,,
+USGS,Earthquake,,,,38.4653,-116.4701,3.3,"79 km ENE of Tonopah, Nevada",2025-10-08 22:53:47.527,,,,
+USGS,Earthquake,,,,59.7684,-138.7833,2.7,"58 km ENE of Yakutat, Alaska",2025-10-08 21:25:24.805,,,,
+USGS,Earthquake,,,,60.0203,-151.9657,2.5,"15 km WNW of Happy Valley, Alaska",2025-10-08 20:20:41.599,,,,
+USGS,Earthquake,,,,59.8012,-138.8317,3.1,"57 km ENE of Yakutat, Alaska",2025-10-08 20:11:39.197,,,,
+USGS,Earthquake,,,,36.5719985961914,-121.202499389648,2.47,"7 km NW of Pinnacles, CA",2025-10-08 19:59:18.930,,,,
+USGS,Earthquake,,,,51.5537,-175.2508,4.5,"101 km SW of Atka, Alaska",2025-10-08 19:38:50.708,,,,
+USGS,Earthquake,,,,53.1995,159.7713,4.6,"78 km E of Petropavlovsk-Kamchatsky, Russia",2025-10-08 19:26:43.833,,,,
+USGS,Earthquake,,,,52.812,159.1202,4.9,"43 km SE of Petropavlovsk-Kamchatsky, Russia",2025-10-08 18:39:37.838,,,,
+USGS,Earthquake,,,,20.0278333333333,-155.810833333333,3.35,"6 km NNE of Puako, Hawaii",2025-10-08 17:23:53.400,,,,
+USGS,Earthquake,,,,-24.2533,-67.0237,4.2,"71 km W of San Antonio de los Cobres, Argentina",2025-10-08 17:22:47.974,,,,
+USGS,Earthquake,,,,61.6848,-152.3695,2.6,"61 km SW of Skwentna, Alaska",2025-10-08 16:38:26.777,,,,
+USGS,Earthquake,,,,55.6746,-153.8839,3.3,"142 km S of Akhiok, Alaska",2025-10-08 14:27:26.287,,,,
+USGS,Earthquake,,,,19.2245,-155.3535,2.7,"13 km E of Pāhala, Hawaii",2025-10-08 14:04:03.530,,,,
+USGS,Earthquake,,,,34.0091667,-116.4056667,2.59,"10 km ENE of Desert Hot Springs, CA",2025-10-08 12:28:36.010,,,,
+USGS,Earthquake,,,,13.8993,-92.068,4.6,"46 km SSW of Champerico, Guatemala",2025-10-08 11:58:02.957,,,,
+NASA-FIRMS,Wildfire,,,,32.79799,-82.76224,,,,2025-10-14 01:43:00,301.85,45.0,29.01
+NASA-FIRMS,Wildfire,,,,32.8122,-82.76675,,,,2025-10-14 01:43:00,303.4,55.0,33.52
+NASA-FIRMS,Wildfire,,,,32.80599,-82.73878,,,,2025-10-14 01:43:00,300.67,32.0,26.74
+NASA-FIRMS,Wildfire,,,,32.79907,-82.7695,,,,2025-10-14 01:43:00,302.47,49.0,32.05
+NASA-FIRMS,Wildfire,,,,41.45784,-81.67666,,,,2025-10-14 01:47:00,300.49,29.0,11.73
+NASA-FIRMS,Wildfire,,,,42.80024,-80.10117,,,,2025-10-14 01:47:00,300.83,34.0,9.14
+NASA-FIRMS,Wildfire,,,,48.13313,-104.04218,,,,2025-10-14 03:28:00,317.36,95.0,21.79
+NASA-FIRMS,Wildfire,,,,25.60581,-100.91322,,,,2025-10-14 03:19:00,306.78,69.0,16.16
+NASA-FIRMS,Wildfire,,,,25.60314,-100.92842,,,,2025-10-14 03:19:00,306.05,67.0,15.24
+NASA-FIRMS,Wildfire,,,,29.5755,-98.03432,,,,2025-10-14 03:21:00,308.06,73.0,7.09
+NASA-FIRMS,Wildfire,,,,30.50976,-90.19602,,,,2025-10-14 15:24:00,311.52,65.0,8.4
+NASA-FIRMS,Wildfire,,,,44.7904,-85.34727,,,,2025-10-14 15:20:00,303.21,55.0,6.27
+NASA-FIRMS,Wildfire,,,,42.80075,-80.09163,,,,2025-10-14 15:22:00,302.15,0.0,5.93
+NASA-FIRMS,Wildfire,,,,41.46662,-81.67355,,,,2025-10-14 15:22:00,308.81,53.0,8.61
+NASA-FIRMS,Wildfire,,,,41.46473,-81.6807,,,,2025-10-14 15:22:00,305.32,23.0,5.82
+NASA-FIRMS,Wildfire,,,,41.56469,-84.04958,,,,2025-10-14 15:22:00,308.37,65.0,5.72
+NASA-FIRMS,Wildfire,,,,39.97848,-86.83798,,,,2025-10-14 15:22:00,309.85,62.0,5.79
+NASA-FIRMS,Wildfire,,,,38.90562,-81.82156,,,,2025-10-14 15:22:00,300.77,39.0,5.64
+NASA-FIRMS,Wildfire,,,,38.75964,-84.99335,,,,2025-10-14 15:22:00,303.82,50.0,5.2
+NASA-FIRMS,Wildfire,,,,38.00584,-86.14153,,,,2025-10-14 15:22:00,304.39,49.0,4.82
+NASA-FIRMS,Wildfire,,,,37.56203,-84.58029,,,,2025-10-14 15:22:00,304.5,59.0,5.71
+NASA-FIRMS,Wildfire,,,,36.93877,-81.9746,,,,2025-10-14 15:22:00,303.97,57.0,9.39
+NASA-FIRMS,Wildfire,,,,36.94283,-81.97945,,,,2025-10-14 15:22:00,303.38,55.0,8.55
+NASA-FIRMS,Wildfire,,,,37.71522,-88.19775,,,,2025-10-14 15:22:00,307.9,56.0,5.19
+NASA-FIRMS,Wildfire,,,,37.09238,-86.16164,,,,2025-10-14 15:22:00,310.74,70.0,8.13
+NASA-FIRMS,Wildfire,,,,37.44106,-91.86176,,,,2025-10-14 15:22:00,305.49,57.0,7.6
+NASA-FIRMS,Wildfire,,,,36.25845,-83.44334,,,,2025-10-14 15:24:00,313.95,70.0,15.21
+NASA-FIRMS,Wildfire,,,,36.18247,-83.35256,,,,2025-10-14 15:24:00,313.97,74.0,14.46
+NASA-FIRMS,Wildfire,,,,35.73009,-84.46135,,,,2025-10-14 15:24:00,306.63,64.0,6.81
+NASA-FIRMS,Wildfire,,,,35.60504,-84.26994,,,,2025-10-14 15:24:00,316.91,67.0,15.55
+NASA-FIRMS,Wildfire,,,,36.03171,-87.3425,,,,2025-10-14 15:24:00,304.48,55.0,4.25
+NASA-FIRMS,Wildfire,,,,35.85101,-86.66524,,,,2025-10-14 15:24:00,306.54,63.0,5.32
+NASA-FIRMS,Wildfire,,,,35.96638,-88.20998,,,,2025-10-14 15:24:00,305.79,57.0,5.98
+NASA-FIRMS,Wildfire,,,,35.71819,-87.67682,,,,2025-10-14 15:24:00,308.95,66.0,7.9
+NASA-FIRMS,Wildfire,,,,35.71669,-87.66601,,,,2025-10-14 15:24:00,306.08,60.0,5.88
+NASA-FIRMS,Wildfire,,,,35.6656,-87.36606,,,,2025-10-14 15:24:00,306.76,63.0,6.39
+NASA-FIRMS,Wildfire,,,,35.35909,-86.27415,,,,2025-10-14 15:24:00,305.69,61.0,5.0
+NASA-FIRMS,Wildfire,,,,35.3552,-86.3086,,,,2025-10-14 15:24:00,319.26,79.0,16.16
+NASA-FIRMS,Wildfire,,,,34.64632,-82.29504,,,,2025-10-14 15:24:00,306.91,64.0,8.8
+NASA-FIRMS,Wildfire,,,,35.37759,-87.28996,,,,2025-10-14 15:24:00,305.16,59.0,4.91
+NASA-FIRMS,Wildfire,,,,34.45506,-82.68372,,,,2025-10-14 15:24:00,305.68,47.0,5.48
+NASA-FIRMS,Wildfire,,,,35.0372,-89.20414,,,,2025-10-14 15:24:00,304.47,48.0,4.42
+NASA-FIRMS,Wildfire,,,,34.77943,-87.56696,,,,2025-10-14 15:24:00,308.94,65.0,5.82
+NASA-FIRMS,Wildfire,,,,34.63757,-87.08279,,,,2025-10-14 15:24:00,311.44,69.0,7.2
+NASA-FIRMS,Wildfire,,,,33.88148,-82.70176,,,,2025-10-14 15:24:00,312.14,70.0,15.86
+NASA-FIRMS,Wildfire,,,,33.87868,-82.68634,,,,2025-10-14 15:24:00,330.74,86.0,49.77
+NASA-FIRMS,Wildfire,,,,33.87939,-82.98722,,,,2025-10-14 15:24:00,306.98,60.0,8.97
+NASA-FIRMS,Wildfire,,,,34.12727,-85.05732,,,,2025-10-14 15:24:00,311.01,68.0,10.06
+NASA-FIRMS,Wildfire,,,,34.66402,-89.02013,,,,2025-10-14 15:24:00,304.46,52.0,4.22
+NASA-FIRMS,Wildfire,,,,33.39125,-82.12836,,,,2025-10-14 15:24:00,307.07,48.0,8.74
+NASA-FIRMS,Wildfire,,,,33.3803,-82.13116,,,,2025-10-14 15:24:00,305.91,43.0,7.71
+NASA-FIRMS,Wildfire,,,,33.361,-82.3298,,,,2025-10-14 15:24:00,357.01,98.0,147.23
+NASA-FIRMS,Wildfire,,,,33.37044,-82.33363,,,,2025-10-14 15:24:00,333.64,87.0,57.91
+NASA-FIRMS,Wildfire,,,,33.36737,-82.31695,,,,2025-10-14 15:24:00,323.64,54.0,33.36
+NASA-FIRMS,Wildfire,,,,33.35965,-82.33646,,,,2025-10-14 15:24:00,321.46,75.0,29.99
+NASA-FIRMS,Wildfire,,,,33.3566,-82.31999,,,,2025-10-14 15:24:00,323.7,81.0,34.69
+NASA-FIRMS,Wildfire,,,,34.36932,-88.87819,,,,2025-10-14 15:24:00,307.42,61.0,5.65
+NASA-FIRMS,Wildfire,,,,34.36787,-88.86721,,,,2025-10-14 15:24:00,305.14,47.0,4.18
+NASA-FIRMS,Wildfire,,,,33.44174,-83.48425,,,,2025-10-14 15:24:00,339.62,91.0,64.16
+NASA-FIRMS,Wildfire,,,,33.43922,-83.47005,,,,2025-10-14 15:24:00,330.78,86.0,43.66
+NASA-FIRMS,Wildfire,,,,33.42412,-83.44438,,,,2025-10-14 15:24:00,348.99,95.0,92.27
+NASA-FIRMS,Wildfire,,,,33.42157,-83.43012,,,,2025-10-14 15:24:00,327.24,84.0,37.36
+NASA-FIRMS,Wildfire,,,,33.43234,-83.78272,,,,2025-10-14 15:24:00,348.35,95.0,85.0
+NASA-FIRMS,Wildfire,,,,33.42999,-83.76916,,,,2025-10-14 15:24:00,308.47,63.0,9.14
+NASA-FIRMS,Wildfire,,,,33.99059,-87.78706,,,,2025-10-14 15:24:00,306.66,60.0,5.32
+NASA-FIRMS,Wildfire,,,,33.96553,-88.41366,,,,2025-10-14 15:24:00,318.5,77.0,14.84
+NASA-FIRMS,Wildfire,,,,33.27407,-84.00266,,,,2025-10-14 15:24:00,303.47,44.0,4.94
+NASA-FIRMS,Wildfire,,,,32.87277,-82.40869,,,,2025-10-14 15:24:00,308.58,64.0,10.05
+NASA-FIRMS,Wildfire,,,,32.86815,-82.56509,,,,2025-10-14 15:24:00,309.88,57.0,11.62
+NASA-FIRMS,Wildfire,,,,33.18613,-84.38338,,,,2025-10-14 15:24:00,307.52,61.0,5.88
+NASA-FIRMS,Wildfire,,,,32.85741,-82.56796,,,,2025-10-14 15:24:00,309.2,61.0,11.01
+NASA-FIRMS,Wildfire,,,,32.85434,-82.55172,,,,2025-10-14 15:24:00,309.73,66.0,11.44
+NASA-FIRMS,Wildfire,,,,33.68462,-87.91612,,,,2025-10-14 15:24:00,305.31,53.0,4.49
+NASA-FIRMS,Wildfire,,,,33.68313,-87.90562,,,,2025-10-14 15:24:00,304.67,51.0,4.09
+NASA-FIRMS,Wildfire,,,,33.83591,-89.09353,,,,2025-10-14 15:24:00,306.57,47.0,4.72
+NASA-FIRMS,Wildfire,,,,33.83447,-89.08253,,,,2025-10-14 15:24:00,305.65,37.0,3.94
+NASA-FIRMS,Wildfire,,,,32.81049,-82.75485,,,,2025-10-14 15:24:00,310.53,67.0,12.47
+NASA-FIRMS,Wildfire,,,,32.64501,-82.25127,,,,2025-10-14 15:24:00,315.21,73.0,21.2
+NASA-FIRMS,Wildfire,,,,32.63398,-82.25417,,,,2025-10-14 15:24:00,318.14,76.0,27.45
+NASA-FIRMS,Wildfire,,,,33.81157,-90.05037,,,,2025-10-14 15:24:00,307.49,51.0,6.0
+NASA-FIRMS,Wildfire,,,,33.81008,-90.03847,,,,2025-10-14 15:24:00,313.61,68.0,11.15
+NASA-FIRMS,Wildfire,,,,33.06185,-85.57446,,,,2025-10-14 15:24:00,315.76,74.0,13.67
+NASA-FIRMS,Wildfire,,,,32.4186,-82.10438,,,,2025-10-14 15:24:00,310.76,66.0,15.7
+NASA-FIRMS,Wildfire,,,,34.04454,-94.51427,,,,2025-10-14 15:24:00,305.54,49.0,11.5
+NASA-FIRMS,Wildfire,,,,33.81161,-92.16839,,,,2025-10-14 15:24:00,323.22,80.0,31.85
+NASA-FIRMS,Wildfire,,,,33.81004,-92.1534,,,,2025-10-14 15:24:00,306.86,50.0,8.76
+NASA-FIRMS,Wildfire,,,,32.87719,-85.46198,,,,2025-10-14 15:24:00,320.97,79.0,18.46
+NASA-FIRMS,Wildfire,,,,32.87532,-85.45039,,,,2025-10-14 15:24:00,309.27,34.0,6.94
+NASA-FIRMS,Wildfire,,,,32.86799,-85.4641,,,,2025-10-14 15:24:00,321.71,80.0,19.48
+NASA-FIRMS,Wildfire,,,,32.77372,-85.39564,,,,2025-10-14 15:24:00,320.05,78.0,19.1
+NASA-FIRMS,Wildfire,,,,32.57272,-84.24986,,,,2025-10-14 15:24:00,311.7,68.0,9.86
+NASA-FIRMS,Wildfire,,,,33.25215,-88.92744,,,,2025-10-14 15:24:00,304.5,43.0,4.45
+NASA-FIRMS,Wildfire,,,,32.13431,-82.51084,,,,2025-10-14 15:24:00,308.91,60.0,8.99
+NASA-FIRMS,Wildfire,,,,32.09757,-82.3778,,,,2025-10-14 15:24:00,306.9,53.0,7.51
+NASA-FIRMS,Wildfire,,,,31.89784,-81.57381,,,,2025-10-14 15:24:00,322.5,79.0,46.0
+NASA-FIRMS,Wildfire,,,,32.20068,-83.77549,,,,2025-10-14 15:24:00,344.86,93.0,77.99
+NASA-FIRMS,Wildfire,,,,32.19818,-83.76136,,,,2025-10-14 15:24:00,309.02,62.0,8.17
+NASA-FIRMS,Wildfire,,,,33.10906,-90.38902,,,,2025-10-14 15:24:00,317.38,73.0,11.41
+NASA-FIRMS,Wildfire,,,,33.10759,-90.37717,,,,2025-10-14 15:24:00,315.76,71.0,9.51
+NASA-FIRMS,Wildfire,,,,31.89437,-82.66145,,,,2025-10-14 15:24:00,321.1,79.0,29.95
+NASA-FIRMS,Wildfire,,,,31.87876,-82.70007,,,,2025-10-14 15:24:00,315.47,73.0,19.83
+NASA-FIRMS,Wildfire,,,,31.87566,-82.68358,,,,2025-10-14 15:24:00,312.25,62.0,13.93
+NASA-FIRMS,Wildfire,,,,32.15071,-84.99247,,,,2025-10-14 15:24:00,321.5,79.0,21.77
+NASA-FIRMS,Wildfire,,,,31.99356,-84.24514,,,,2025-10-14 15:24:00,310.18,65.0,9.88
+NASA-FIRMS,Wildfire,,,,33.4514,-95.99211,,,,2025-10-14 15:24:00,321.26,78.0,56.43
+NASA-FIRMS,Wildfire,,,,32.99626,-91.94608,,,,2025-10-14 15:24:00,333.68,88.0,47.12
+NASA-FIRMS,Wildfire,,,,32.9947,-91.93195,,,,2025-10-14 15:24:00,308.78,29.0,8.1
+NASA-FIRMS,Wildfire,,,,31.60742,-82.80502,,,,2025-10-14 15:24:00,316.42,73.0,21.46
+NASA-FIRMS,Wildfire,,,,31.60432,-82.78858,,,,2025-10-14 15:24:00,314.73,71.0,18.76
+NASA-FIRMS,Wildfire,,,,32.25854,-86.71034,,,,2025-10-14 15:24:00,330.46,86.0,27.49
+NASA-FIRMS,Wildfire,,,,31.49136,-82.68439,,,,2025-10-14 15:24:00,311.06,64.0,13.94
+NASA-FIRMS,Wildfire,,,,31.81367,-84.57371,,,,2025-10-14 15:24:00,321.91,79.0,22.9
+NASA-FIRMS,Wildfire,,,,31.81298,-84.57961,,,,2025-10-14 15:24:00,311.85,26.0,9.43
+NASA-FIRMS,Wildfire,,,,31.97683,-85.74851,,,,2025-10-14 15:24:00,339.07,91.0,46.86
+NASA-FIRMS,Wildfire,,,,31.44747,-82.70116,,,,2025-10-14 15:24:00,328.07,84.0,47.07
+NASA-FIRMS,Wildfire,,,,31.44434,-82.68436,,,,2025-10-14 15:24:00,316.69,73.0,22.33
+NASA-FIRMS,Wildfire,,,,31.96764,-85.7506,,,,2025-10-14 15:24:00,307.77,59.0,6.88
+NASA-FIRMS,Wildfire,,,,31.48537,-82.96722,,,,2025-10-14 15:24:00,312.11,66.0,14.49
+NASA-FIRMS,Wildfire,,,,31.48239,-82.95107,,,,2025-10-14 15:24:00,306.84,49.0,7.07
+NASA-FIRMS,Wildfire,,,,31.91367,-85.59568,,,,2025-10-14 15:24:00,351.79,96.0,76.56
+NASA-FIRMS,Wildfire,,,,31.91176,-85.58405,,,,2025-10-14 15:24:00,311.87,67.0,9.62
+NASA-FIRMS,Wildfire,,,,31.44388,-82.92673,,,,2025-10-14 15:24:00,306.19,43.0,7.29
+NASA-FIRMS,Wildfire,,,,31.47783,-83.16866,,,,2025-10-14 15:24:00,314.56,70.0,18.01
+NASA-FIRMS,Wildfire,,,,31.47491,-83.15295,,,,2025-10-14 15:24:00,309.73,61.0,11.33
+NASA-FIRMS,Wildfire,,,,31.78851,-84.96604,,,,2025-10-14 15:24:00,331.55,86.0,36.49
+NASA-FIRMS,Wildfire,,,,31.78639,-84.95369,,,,2025-10-14 15:24:00,319.39,77.0,18.14
+NASA-FIRMS,Wildfire,,,,31.78398,-84.96074,,,,2025-10-14 15:24:00,344.29,93.0,62.92
+NASA-FIRMS,Wildfire,,,,31.47506,-83.17586,,,,2025-10-14 15:24:00,312.62,59.0,13.7
+NASA-FIRMS,Wildfire,,,,31.47222,-83.16008,,,,2025-10-14 15:24:00,318.07,74.0,22.82
+NASA-FIRMS,Wildfire,,,,31.77443,-84.96298,,,,2025-10-14 15:24:00,317.1,69.0,15.45
+NASA-FIRMS,Wildfire,,,,31.33599,-82.78838,,,,2025-10-14 15:24:00,306.93,41.0,7.59
+NASA-FIRMS,Wildfire,,,,32.04095,-86.98217,,,,2025-10-14 15:24:00,319.92,78.0,15.38
+NASA-FIRMS,Wildfire,,,,32.03934,-86.97163,,,,2025-10-14 15:24:00,316.41,74.0,12.19
+NASA-FIRMS,Wildfire,,,,31.55279,-84.09145,,,,2025-10-14 15:24:00,313.54,69.0,9.52
+NASA-FIRMS,Wildfire,,,,32.40676,-90.21795,,,,2025-10-14 15:24:00,307.58,57.0,5.91
+NASA-FIRMS,Wildfire,,,,32.48202,-91.80178,,,,2025-10-14 15:24:00,318.24,75.0,15.67
+NASA-FIRMS,Wildfire,,,,32.48052,-91.78821,,,,2025-10-14 15:24:00,324.43,81.0,25.33
+NASA-FIRMS,Wildfire,,,,31.42197,-85.01677,,,,2025-10-14 15:24:00,312.05,65.0,9.22
+NASA-FIRMS,Wildfire,,,,31.073,-83.13501,,,,2025-10-14 15:24:00,310.92,62.0,13.12
+NASA-FIRMS,Wildfire,,,,31.35581,-85.09583,,,,2025-10-14 15:24:00,322.42,79.0,21.21
+NASA-FIRMS,Wildfire,,,,31.6426,-87.10587,,,,2025-10-14 15:24:00,316.49,74.0,11.77
+NASA-FIRMS,Wildfire,,,,31.64101,-87.09538,,,,2025-10-14 15:24:00,321.34,79.0,16.31
+NASA-FIRMS,Wildfire,,,,32.27945,-91.99012,,,,2025-10-14 15:24:00,311.1,51.0,7.88
+NASA-FIRMS,Wildfire,,,,30.90225,-83.08223,,,,2025-10-14 15:24:00,316.83,72.0,22.55
+NASA-FIRMS,Wildfire,,,,30.98156,-83.56844,,,,2025-10-14 15:24:00,319.8,76.0,22.76
+NASA-FIRMS,Wildfire,,,,30.97878,-83.5534,,,,2025-10-14 15:24:00,318.39,74.0,19.37
+NASA-FIRMS,Wildfire,,,,30.98529,-83.55834,,,,2025-10-14 15:24:00,328.24,83.0,38.51
+NASA-FIRMS,Wildfire,,,,30.90111,-83.08911,,,,2025-10-14 15:24:00,313.24,66.0,15.69
+NASA-FIRMS,Wildfire,,,,31.05548,-84.61554,,,,2025-10-14 15:24:00,332.17,86.0,37.52
+NASA-FIRMS,Wildfire,,,,31.05323,-84.60241,,,,2025-10-14 15:24:00,318.41,73.0,15.56
+NASA-FIRMS,Wildfire,,,,30.95642,-84.04378,,,,2025-10-14 15:24:00,310.35,59.0,10.14
+NASA-FIRMS,Wildfire,,,,30.8381,-83.44072,,,,2025-10-14 15:24:00,307.7,46.0,7.78
+NASA-FIRMS,Wildfire,,,,30.72193,-83.05423,,,,2025-10-14 15:24:00,306.95,42.0,7.43
+NASA-FIRMS,Wildfire,,,,31.2101,-86.46596,,,,2025-10-14 15:24:00,316.07,72.0,11.17
+NASA-FIRMS,Wildfire,,,,31.20837,-86.45509,,,,2025-10-14 15:24:00,344.86,93.0,53.39
+NASA-FIRMS,Wildfire,,,,32.03851,-93.24729,,,,2025-10-14 15:24:00,332.66,87.0,57.11
+NASA-FIRMS,Wildfire,,,,31.01542,-85.60223,,,,2025-10-14 15:24:00,327.69,83.0,27.97
+NASA-FIRMS,Wildfire,,,,31.01348,-85.59044,,,,2025-10-14 15:24:00,320.52,77.0,18.35
+NASA-FIRMS,Wildfire,,,,31.00605,-85.60429,,,,2025-10-14 15:24:00,308.62,32.0,5.7
+NASA-FIRMS,Wildfire,,,,30.72646,-83.97694,,,,2025-10-14 15:24:00,307.37,45.0,5.83
+NASA-FIRMS,Wildfire,,,,30.72388,-83.9625,,,,2025-10-14 15:24:00,312.3,64.0,11.78
+NASA-FIRMS,Wildfire,,,,30.55783,-83.24884,,,,2025-10-14 15:24:00,313.49,61.0,13.27
+NASA-FIRMS,Wildfire,,,,30.54543,-83.61037,,,,2025-10-14 15:24:00,307.27,45.0,7.91
+NASA-FIRMS,Wildfire,,,,30.65522,-84.33666,,,,2025-10-14 15:24:00,311.57,63.0,10.49
+NASA-FIRMS,Wildfire,,,,30.65749,-84.34203,,,,2025-10-14 15:24:00,309.94,58.0,8.55
+NASA-FIRMS,Wildfire,,,,30.60069,-84.79229,,,,2025-10-14 15:24:00,309.46,58.0,7.95
+NASA-FIRMS,Wildfire,,,,30.59846,-84.7793,,,,2025-10-14 15:24:00,307.47,50.0,5.75
+NASA-FIRMS,Wildfire,,,,30.57982,-85.45164,,,,2025-10-14 15:24:00,314.16,69.0,11.67
+NASA-FIRMS,Wildfire,,,,30.57778,-85.43956,,,,2025-10-14 15:24:00,309.02,59.0,6.58
+NASA-FIRMS,Wildfire,,,,31.567,-92.8985,,,,2025-10-14 15:24:00,312.25,67.0,12.34
+NASA-FIRMS,Wildfire,,,,31.56537,-92.88335,,,,2025-10-14 15:24:00,309.33,61.0,8.72
+NASA-FIRMS,Wildfire,,,,31.5628,-93.16548,,,,2025-10-14 15:24:00,346.99,94.0,100.96
+NASA-FIRMS,Wildfire,,,,31.50202,-93.57388,,,,2025-10-14 15:24:00,372.27,100.0,244.65
+NASA-FIRMS,Wildfire,,,,31.50035,-93.55721,,,,2025-10-14 15:24:00,325.38,81.0,39.87
+NASA-FIRMS,Wildfire,,,,31.49095,-93.57536,,,,2025-10-14 15:24:00,314.69,70.0,20.32
+NASA-FIRMS,Wildfire,,,,30.58499,-90.50029,,,,2025-10-14 15:24:00,308.73,59.0,6.31
+NASA-FIRMS,Wildfire,,,,43.1589,-112.59911,,,,2025-10-14 17:00:00,301.11,44.0,5.01
+NASA-FIRMS,Wildfire,,,,43.15295,-112.59295,,,,2025-10-14 17:00:00,301.02,44.0,5.45
+NASA-FIRMS,Wildfire,,,,35.02681,-106.41977,,,,2025-10-14 17:02:00,300.97,0.0,7.62
+NASA-FIRMS,Wildfire,,,,33.91121,-106.94181,,,,2025-10-14 17:02:00,303.51,30.0,5.9
+NASA-FIRMS,Wildfire,,,,32.9622,-109.70065,,,,2025-10-14 17:02:00,309.49,65.0,6.36
+NASA-FIRMS,Wildfire,,,,32.33551,-109.99302,,,,2025-10-14 17:02:00,324.34,61.0,24.29
+NASA-FIRMS,Wildfire,,,,32.33358,-109.98115,,,,2025-10-14 17:02:00,312.27,63.0,10.69
+NASA-FIRMS,Wildfire,,,,44.75547,-123.33994,,,,2025-10-14 18:36:00,300.88,42.0,22.2
+NASA-FIRMS,Wildfire,,,,40.07336,-122.15183,,,,2025-10-14 18:38:00,311.16,47.0,79.61
+NASA-FIRMS,Wildfire,,,,30.98679,-83.54872,,,,2025-10-14 19:32:00,311.42,36.0,26.35
+NASA-FIRMS,Wildfire,,,,30.97956,-83.58096,,,,2025-10-14 19:32:00,315.9,70.0,45.94
+NASA-FIRMS,Wildfire,,,,30.98634,-83.55553,,,,2025-10-14 19:32:00,314.4,68.0,41.93
+NASA-FIRMS,Wildfire,,,,30.97892,-83.58768,,,,2025-10-14 19:32:00,311.79,62.0,30.24
+NASA-FIRMS,Wildfire,,,,30.8517,-84.55405,,,,2025-10-14 19:32:00,311.8,62.0,44.4
+NASA-FIRMS,Wildfire,,,,30.8429,-84.59184,,,,2025-10-14 19:32:00,342.1,92.0,304.67
+NASA-FIRMS,Wildfire,,,,30.85986,-84.56131,,,,2025-10-14 19:32:00,336.52,89.0,235.07
+NASA-FIRMS,Wildfire,,,,30.85088,-84.59892,,,,2025-10-14 19:32:00,362.12,100.0,622.81
+NASA-FIRMS,Wildfire,,,,30.84375,-84.81071,,,,2025-10-14 19:32:00,309.04,0.0,28.28
+NASA-FIRMS,Wildfire,,,,31.44674,-82.70158,,,,2025-10-14 19:32:00,312.5,63.0,27.98
+NASA-FIRMS,Wildfire,,,,31.79766,-81.39224,,,,2025-10-14 19:32:00,307.28,31.0,14.45
+NASA-FIRMS,Wildfire,,,,31.43101,-84.99806,,,,2025-10-14 19:32:00,310.2,59.0,34.97
+NASA-FIRMS,Wildfire,,,,31.42155,-85.03731,,,,2025-10-14 19:32:00,324.3,80.0,129.31
+NASA-FIRMS,Wildfire,,,,31.42857,-85.04341,,,,2025-10-14 19:32:00,320.84,75.0,95.43
+NASA-FIRMS,Wildfire,,,,32.24625,-82.18684,,,,2025-10-14 19:32:00,312.63,66.0,24.88
+NASA-FIRMS,Wildfire,,,,31.81325,-84.57669,,,,2025-10-14 19:32:00,309.86,60.0,35.49
+NASA-FIRMS,Wildfire,,,,31.91054,-85.58989,,,,2025-10-14 19:32:00,309.47,59.0,50.6
+NASA-FIRMS,Wildfire,,,,31.97618,-85.74954,,,,2025-10-14 19:32:00,340.03,91.0,333.31
+NASA-FIRMS,Wildfire,,,,31.9658,-85.79231,,,,2025-10-14 19:32:00,324.44,81.0,159.5
+NASA-FIRMS,Wildfire,,,,32.15038,-84.99926,,,,2025-10-14 19:32:00,309.23,51.0,37.37
+NASA-FIRMS,Wildfire,,,,31.98082,-85.75935,,,,2025-10-14 19:32:00,342.99,92.0,378.43
+NASA-FIRMS,Wildfire,,,,31.97025,-85.80184,,,,2025-10-14 19:32:00,313.07,67.0,73.73
+NASA-FIRMS,Wildfire,,,,32.79519,-82.74574,,,,2025-10-14 19:32:00,313.11,68.0,27.82
+NASA-FIRMS,Wildfire,,,,32.80835,-82.74984,,,,2025-10-14 19:32:00,327.31,83.0,83.63
+NASA-FIRMS,Wildfire,,,,32.80265,-82.77596,,,,2025-10-14 19:32:00,319.49,76.0,50.17
+NASA-FIRMS,Wildfire,,,,32.86576,-82.54965,,,,2025-10-14 19:32:00,326.42,82.0,76.77
+NASA-FIRMS,Wildfire,,,,32.86034,-82.57478,,,,2025-10-14 19:32:00,332.33,87.0,106.24
+NASA-FIRMS,Wildfire,,,,32.86198,-82.55547,,,,2025-10-14 19:32:00,331.45,86.0,100.32
+NASA-FIRMS,Wildfire,,,,32.85638,-82.58059,,,,2025-10-14 19:32:00,321.83,79.0,58.51
+NASA-FIRMS,Wildfire,,,,33.58592,-81.29428,,,,2025-10-14 19:32:00,306.14,51.0,11.14
+NASA-FIRMS,Wildfire,,,,33.36605,-82.34452,,,,2025-10-14 19:32:00,309.78,62.0,20.43
+NASA-FIRMS,Wildfire,,,,32.7847,-85.37737,,,,2025-10-14 19:32:00,308.97,59.0,40.01
+NASA-FIRMS,Wildfire,,,,32.77547,-85.41568,,,,2025-10-14 19:32:00,320.82,78.0,112.25
+NASA-FIRMS,Wildfire,,,,32.77754,-85.38237,,,,2025-10-14 19:32:00,309.6,61.0,40.12
+NASA-FIRMS,Wildfire,,,,32.7681,-85.42042,,,,2025-10-14 19:32:00,311.09,65.0,49.57
+NASA-FIRMS,Wildfire,,,,32.79305,-85.38769,,,,2025-10-14 19:32:00,308.43,42.0,34.34
+NASA-FIRMS,Wildfire,,,,32.78358,-85.42603,,,,2025-10-14 19:32:00,306.7,21.0,27.69
+NASA-FIRMS,Wildfire,,,,32.8767,-85.45863,,,,2025-10-14 19:32:00,323.07,80.0,125.13
+NASA-FIRMS,Wildfire,,,,32.86736,-85.49749,,,,2025-10-14 19:32:00,311.3,65.0,50.68
+NASA-FIRMS,Wildfire,,,,32.92859,-85.3116,,,,2025-10-14 19:32:00,311.82,58.0,50.94
+NASA-FIRMS,Wildfire,,,,32.91961,-85.34931,,,,2025-10-14 19:32:00,313.78,69.0,60.79
+NASA-FIRMS,Wildfire,,,,32.86907,-85.45966,,,,2025-10-14 19:32:00,315.78,72.0,76.39
+NASA-FIRMS,Wildfire,,,,32.92192,-85.31304,,,,2025-10-14 19:32:00,312.94,68.0,61.7
+NASA-FIRMS,Wildfire,,,,32.91267,-85.35077,,,,2025-10-14 19:32:00,311.51,66.0,53.85
+NASA-FIRMS,Wildfire,,,,32.88456,-85.46523,,,,2025-10-14 19:32:00,313.48,69.0,61.5
+NASA-FIRMS,Wildfire,,,,33.41876,-83.45442,,,,2025-10-14 19:32:00,316.41,73.0,48.41
+NASA-FIRMS,Wildfire,,,,33.4171,-83.43085,,,,2025-10-14 19:32:00,309.92,47.0,22.98
+NASA-FIRMS,Wildfire,,,,33.41066,-83.45882,,,,2025-10-14 19:32:00,310.74,52.0,25.46
+NASA-FIRMS,Wildfire,,,,33.42065,-83.80138,,,,2025-10-14 19:32:00,308.7,52.0,25.28
+NASA-FIRMS,Wildfire,,,,33.43061,-83.77714,,,,2025-10-14 19:32:00,309.08,60.0,25.07
+NASA-FIRMS,Wildfire,,,,33.4237,-83.80671,,,,2025-10-14 19:32:00,308.02,46.0,21.07
+NASA-FIRMS,Wildfire,,,,33.17855,-85.62994,,,,2025-10-14 19:32:00,319.92,77.0,104.82
+NASA-FIRMS,Wildfire,,,,33.16916,-85.6684,,,,2025-10-14 19:32:00,320.24,77.0,108.52
+NASA-FIRMS,Wildfire,,,,33.88099,-82.69727,,,,2025-10-14 19:32:00,314.45,71.0,34.11
+NASA-FIRMS,Wildfire,,,,33.8782,-82.70083,,,,2025-10-14 19:32:00,312.6,68.0,28.56
+NASA-FIRMS,Wildfire,,,,35.79468,-85.22462,,,,2025-10-14 19:34:00,312.97,72.0,56.09
+NASA-FIRMS,Wildfire,,,,35.78686,-85.25735,,,,2025-10-14 19:34:00,321.74,80.0,97.84
+NASA-FIRMS,Wildfire,,,,41.22912,-82.71224,,,,2025-10-14 19:34:00,306.22,56.0,7.67
+NASA-FIRMS,Wildfire,,,,41.23113,-82.71796,,,,2025-10-14 19:34:00,306.74,57.0,8.71
+NASA-FIRMS,Wildfire,,,,41.56887,-84.03855,,,,2025-10-14 19:34:00,307.05,31.0,10.51
+NASA-FIRMS,Wildfire,,,,43.76261,-81.32056,,,,2025-10-14 19:34:00,305.37,61.0,8.68
+NASA-FIRMS,Wildfire,,,,42.37063,-89.03941,,,,2025-10-14 19:34:00,300.47,0.0,13.26
+NASA-FIRMS,Wildfire,,,,46.57756,-80.78636,,,,2025-10-14 19:34:00,326.24,84.0,27.03
+NASA-FIRMS,Wildfire,,,,46.57535,-80.79954,,,,2025-10-14 19:34:00,335.83,90.0,40.74
+NASA-FIRMS,Wildfire,,,,48.25204,-79.02815,,,,2025-10-14 19:36:00,300.38,27.0,5.15
+NASA-FIRMS,Wildfire,,,,30.63125,-91.61445,,,,2025-10-14 21:08:00,319.53,74.0,34.73
+NASA-FIRMS,Wildfire,,,,30.62921,-91.63483,,,,2025-10-14 21:08:00,340.42,91.0,109.38
+NASA-FIRMS,Wildfire,,,,30.6365,-91.62215,,,,2025-10-14 21:08:00,333.93,87.0,81.67
+NASA-FIRMS,Wildfire,,,,30.69966,-95.93299,,,,2025-10-14 21:08:00,313.45,40.0,5.19
+NASA-FIRMS,Wildfire,,,,31.20254,-94.63512,,,,2025-10-14 21:08:00,311.31,48.0,6.86
+NASA-FIRMS,Wildfire,,,,31.37695,-93.20524,,,,2025-10-14 21:08:00,324.25,79.0,32.49
+NASA-FIRMS,Wildfire,,,,31.38113,-93.19604,,,,2025-10-14 21:08:00,316.44,69.0,18.42
+NASA-FIRMS,Wildfire,,,,31.49697,-93.57726,,,,2025-10-14 21:08:00,319.53,73.0,21.84
+NASA-FIRMS,Wildfire,,,,32.48893,-92.83989,,,,2025-10-14 21:10:00,321.33,76.0,35.3
+NASA-FIRMS,Wildfire,,,,32.48706,-92.8582,,,,2025-10-14 21:10:00,364.57,100.0,219.33
+NASA-FIRMS,Wildfire,,,,32.84587,-95.66516,,,,2025-10-14 21:10:00,319.16,70.0,13.23
+NASA-FIRMS,Wildfire,,,,33.76231,-90.8773,,,,2025-10-14 21:10:00,316.17,66.0,24.84
+NASA-FIRMS,Wildfire,,,,33.76086,-90.85835,,,,2025-10-14 21:10:00,326.26,0.0,59.45
+NASA-FIRMS,Wildfire,,,,33.53904,-93.84519,,,,2025-10-14 21:10:00,314.25,63.0,13.78
+NASA-FIRMS,Wildfire,,,,33.80571,-92.16227,,,,2025-10-14 21:10:00,309.49,52.0,15.72
+NASA-FIRMS,Wildfire,,,,33.4502,-95.99252,,,,2025-10-14 21:10:00,320.89,72.0,14.85
+NASA-FIRMS,Wildfire,,,,34.24889,-91.83942,,,,2025-10-14 21:10:00,315.32,60.0,21.88
+NASA-FIRMS,Wildfire,,,,34.23846,-91.84546,,,,2025-10-14 21:10:00,315.63,51.0,24.25
+NASA-FIRMS,Wildfire,,,,34.18072,-93.02293,,,,2025-10-14 21:10:00,313.71,65.0,17.92
+NASA-FIRMS,Wildfire,,,,34.35075,-92.02547,,,,2025-10-14 21:10:00,318.27,64.0,31.91
+NASA-FIRMS,Wildfire,,,,34.41056,-91.77827,,,,2025-10-14 21:10:00,332.76,71.0,86.03
+NASA-FIRMS,Wildfire,,,,34.41407,-91.7626,,,,2025-10-14 21:10:00,310.67,0.0,14.16
+NASA-FIRMS,Wildfire,,,,34.48608,-91.81872,,,,2025-10-14 21:10:00,320.33,68.0,40.37
+NASA-FIRMS,Wildfire,,,,34.48404,-91.84199,,,,2025-10-14 21:10:00,313.02,66.0,19.94
+NASA-FIRMS,Wildfire,,,,34.49894,-91.96009,,,,2025-10-14 21:10:00,310.48,51.0,13.17
+NASA-FIRMS,Wildfire,,,,34.49974,-91.96534,,,,2025-10-14 21:10:00,317.79,64.0,32.26
+NASA-FIRMS,Wildfire,,,,34.80484,-91.25594,,,,2025-10-14 21:10:00,312.3,62.0,24.98
+NASA-FIRMS,Wildfire,,,,34.99229,-92.65765,,,,2025-10-14 21:10:00,312.23,58.0,16.19
+NASA-FIRMS,Wildfire,,,,34.9903,-92.6785,,,,2025-10-14 21:10:00,309.89,34.0,11.49
+NASA-FIRMS,Wildfire,,,,34.99671,-92.6634,,,,2025-10-14 21:10:00,315.18,70.0,23.62
+NASA-FIRMS,Wildfire,,,,34.87784,-95.10103,,,,2025-10-14 21:10:00,309.51,47.0,6.85
+NASA-FIRMS,Wildfire,,,,34.87619,-95.11584,,,,2025-10-14 21:10:00,309.62,48.0,6.99
+NASA-FIRMS,Wildfire,,,,36.09251,-90.36774,,,,2025-10-14 21:12:00,318.69,71.0,54.96
+NASA-FIRMS,Wildfire,,,,48.6386,-114.51652,,,,2025-10-14 21:14:00,311.11,71.0,50.27
+NASA-FIRMS,Wildfire,,,,36.08091,-90.37146,,,,2025-10-14 21:12:00,310.05,47.0,21.59
+NASA-FIRMS,Wildfire,,,,48.6303,-114.55032,,,,2025-10-14 21:14:00,306.08,59.0,38.06
+NASA-FIRMS,Wildfire,,,,36.09516,-90.37292,,,,2025-10-14 21:12:00,314.66,53.0,39.01
+NASA-FIRMS,Wildfire,,,,48.64268,-114.55704,,,,2025-10-14 21:14:00,305.52,33.0,34.88
+NASA-FIRMS,Wildfire,,,,36.28902,-90.59142,,,,2025-10-14 21:12:00,315.88,62.0,40.85
+NASA-FIRMS,Wildfire,,,,48.63618,-114.52416,,,,2025-10-14 21:14:00,318.06,50.0,66.51
+NASA-FIRMS,Wildfire,,,,36.35735,-90.51408,,,,2025-10-14 21:12:00,310.12,60.0,22.37
+NASA-FIRMS,Wildfire,,,,48.43779,-118.78746,,,,2025-10-14 21:14:00,313.75,74.0,113.89
+NASA-FIRMS,Wildfire,,,,36.58751,-92.42374,,,,2025-10-14 21:12:00,312.29,65.0,20.44
+NASA-FIRMS,Wildfire,,,,48.42381,-118.83518,,,,2025-10-14 21:14:00,327.08,85.0,210.92
+NASA-FIRMS,Wildfire,,,,36.58556,-92.4469,,,,2025-10-14 21:12:00,308.33,55.0,11.96
+NASA-FIRMS,Wildfire,,,,36.25619,-96.74093,,,,2025-10-14 21:12:00,312.92,61.0,7.53
+NASA-FIRMS,Wildfire,,,,36.55532,-105.63892,,,,2025-10-14 21:12:00,332.76,88.0,58.56
+NASA-FIRMS,Wildfire,,,,36.55192,-105.6564,,,,2025-10-14 21:12:00,327.04,81.0,44.11
+NASA-FIRMS,Wildfire,,,,36.5574,-105.64657,,,,2025-10-14 21:12:00,371.1,100.0,238.0
+NASA-FIRMS,Wildfire,,,,36.5538,-105.66448,,,,2025-10-14 21:12:00,320.67,78.0,31.48
+NASA-FIRMS,Wildfire,,,,36.56815,-105.64955,,,,2025-10-14 21:12:00,317.26,77.0,25.54
+NASA-FIRMS,Wildfire,,,,36.54182,-120.02774,,,,2025-10-14 22:48:00,303.11,54.0,10.89
+NASA-FIRMS,Wildfire,,,,40.07385,-122.1339,,,,2025-10-14 22:50:00,303.59,53.0,7.88
+NASA-FIRMS,Wildfire,,,,40.07224,-122.14772,,,,2025-10-14 22:50:00,301.21,44.0,6.02
+NASA-FIRMS,Wildfire,,,,40.38973,-123.8244,,,,2025-10-14 22:52:00,320.21,80.0,20.91
+NASA-FIRMS,Wildfire,,,,40.38807,-123.83721,,,,2025-10-14 22:52:00,320.03,80.0,20.71
+NASA-FIRMS,Wildfire,,,,40.75778,-124.04388,,,,2025-10-14 22:52:00,300.72,41.0,5.63
+NASA-FIRMS,Wildfire,,,,42.09582,-121.81961,,,,2025-10-14 22:52:00,302.3,52.0,7.73
+NASA-FIRMS,Wildfire,,,,42.09415,-121.83525,,,,2025-10-14 22:52:00,301.58,43.0,7.36
+NASA-FIRMS,Wildfire,,,,43.83539,-118.28119,,,,2025-10-14 22:52:00,332.76,88.0,103.55
+NASA-FIRMS,Wildfire,,,,43.83864,-118.26109,,,,2025-10-14 22:52:00,310.24,70.0,28.91
+NASA-FIRMS,Wildfire,,,,43.83675,-118.2888,,,,2025-10-14 22:52:00,324.91,83.0,71.46
+NASA-FIRMS,Wildfire,,,,44.67794,-123.17841,,,,2025-10-14 22:52:00,312.03,72.0,15.01
+NASA-FIRMS,Wildfire,,,,44.76083,-123.34178,,,,2025-10-14 22:52:00,304.82,60.0,8.65
+NASA-FIRMS,Wildfire,,,,45.26917,-122.29311,,,,2025-10-14 22:52:00,301.54,48.0,9.15
+NASA-FIRMS,Wildfire,,,,45.22651,-123.17074,,,,2025-10-14 22:52:00,303.95,56.0,7.39
+NASA-FIRMS,Wildfire,,,,48.4222,-118.81506,,,,2025-10-14 22:52:00,356.96,98.0,275.95
+NASA-FIRMS,Wildfire,,,,48.42029,-118.84454,,,,2025-10-14 22:52:00,303.76,20.0,22.95
+NASA-FIRMS,Wildfire,,,,48.43535,-118.81478,,,,2025-10-14 22:52:00,346.02,94.0,191.5
+NASA-FIRMS,Wildfire,,,,48.41933,-118.8197,,,,2025-10-14 22:52:00,333.37,88.0,120.97
+NASA-FIRMS,Wildfire,,,,48.43424,-118.78968,,,,2025-10-14 22:52:00,309.71,69.0,38.19
+NASA-FIRMS,Wildfire,,,,48.43245,-118.81951,,,,2025-10-14 22:52:00,361.01,100.0,315.15
+NASA-FIRMS,Wildfire,,,,30.85714,-84.57805,,,,2025-10-15 02:21:00,301.04,37.0,5.64
+NASA-FIRMS,Wildfire,,,,30.8431,-86.37813,,,,2025-10-15 02:21:00,374.48,100.0,200.62
+NASA-FIRMS,Wildfire,,,,30.84083,-86.39153,,,,2025-10-15 02:21:00,326.2,100.0,37.6
+NASA-FIRMS,Wildfire,,,,30.85303,-86.38047,,,,2025-10-15 02:21:00,365.2,100.0,153.65
+NASA-FIRMS,Wildfire,,,,30.85077,-86.39381,,,,2025-10-15 02:21:00,322.82,100.0,32.0
+NASA-FIRMS,Wildfire,,,,31.87574,-85.41498,,,,2025-10-15 02:24:00,317.66,95.0,20.33
+NASA-FIRMS,Wildfire,,,,31.97894,-85.74656,,,,2025-10-15 02:24:00,301.74,44.0,6.86
+NASA-FIRMS,Wildfire,,,,31.97697,-85.7587,,,,2025-10-15 02:24:00,334.27,100.0,45.98
+NASA-FIRMS,Wildfire,,,,33.18372,-85.63391,,,,2025-10-15 02:24:00,306.07,65.0,8.52
+NASA-FIRMS,Wildfire,,,,33.18186,-85.64556,,,,2025-10-15 02:24:00,321.02,100.0,23.23
+NASA-FIRMS,Wildfire,,,,33.17999,-85.65723,,,,2025-10-15 02:24:00,304.72,48.0,7.57
+NASA-FIRMS,Wildfire,,,,36.38065,-88.9826,,,,2025-10-15 02:24:00,300.47,28.0,9.22
+NASA-FIRMS,Wildfire,,,,40.31516,-80.61407,,,,2025-10-15 02:24:00,303.09,53.0,11.84
+NASA-FIRMS,Wildfire,,,,41.56606,-84.04424,,,,2025-10-15 02:24:00,308.09,73.0,11.27
+NASA-FIRMS,Wildfire,,,,32.85625,-109.69083,,,,2025-10-15 04:02:00,306.3,68.0,9.23
+NASA-FIRMS,Wildfire,,,,42.68894,-111.59803,,,,2025-10-15 04:04:00,301.95,46.0,8.98
+NASA-FIRMS,Wildfire,,,,48.32333,-116.72256,,,,2025-10-15 04:06:00,301.31,40.0,11.76
+NASA-FIRMS,Wildfire,,,,48.32055,-116.73832,,,,2025-10-15 04:06:00,349.11,100.0,87.1
+NASA-FIRMS,Wildfire,,,,48.42915,-118.80636,,,,2025-10-15 04:06:00,317.33,95.0,34.62
+NASA-FIRMS,Wildfire,,,,48.43339,-118.81538,,,,2025-10-15 04:06:00,309.69,78.0,25.11

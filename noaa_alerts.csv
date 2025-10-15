@@ -1,0 +1,6 @@
+source,event,severity,area,headline,lat,lon
+NOAA,Flood Advisory,Minor,"Archuleta, CO",Flood Advisory issued October 14 at 9:46PM MDT until October 16 at 12:00PM MDT by NWS Grand Junction CO,37.27833331666667,-106.95166663333335
+NOAA,Flood Warning,Severe,"Horry, SC; Marion, SC",Flood Warning issued October 14 at 9:39PM EDT until October 18 at 2:00PM EDT by NWS Wilmington NC,34.1042857,-79.23999997142856
+NOAA,Flood Warning,Severe,"Lake, FL; Volusia, FL",Flood Warning issued October 14 at 9:20PM EDT by NWS Melbourne FL,29.185999999999996,-81.53599998
+NOAA,Flood Warning,Severe,"Archuleta, CO; Hinsdale, CO",Flood Warning issued October 13 at 12:19PM MDT until October 15 at 3:00PM MDT by NWS Grand Junction CO,37.28714285714286,-107.29714282857142
+NOAA,Flood Warning,Severe,"Brown, SD; Spink, SD",Flood Warning issued October 13 at 8:18AM CDT until October 19 at 7:00PM CDT by NWS Aberdeen SD,45.372,-98.298
