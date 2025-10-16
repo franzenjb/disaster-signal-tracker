@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-10-16T14:43:38.531368",
+  "reddit_discussions": 33,
+  "news_stories": 8,
+  "trending_topics": [
+    "fire",
+    "earthquake"
+  ],
+  "sample_reddit": [
+    {
+      "subreddit": "news",
+      "title": "Woman fired after \u2018call ICE\u2019 comment toward Dodgers fan at Brewers game",
+      "score": 15782,
+      "comments": 787,
+      "url": "https://reddit.com/r/news/comments/1o87mvr/woman_fired_after_call_ice_comment_toward_dodgers/",
+      "keywords": [
+        "fire"
+      ],
+      "created": "2025-10-16 10:27:56",
+      "hours_ago": 4.2604094675
+    },
+    {
+      "subreddit": "news",
+      "title": "Nestle to cut 16,000 jobs as new CEO ignites 'turnaround fire\u2019",
+      "score": 5098,
+      "comments": 246,
+      "url": "https://reddit.com/r/news/comments/1o81b9m/nestle_to_cut_16000_jobs_as_new_ceo_ignites/",
+      "keywords": [
+        "fire"
+      ],
+      "created": "2025-10-16 05:11:17",
+      "hours_ago": 9.537909532777778
+    },
+    {
+      "subreddit": "CatastrophicFailure",
+      "title": "Explosion and fire at Chevron refinery in El Segundo, California. 10/2/2025",
+      "score": 1324,
+      "comments": 130,
+      "url": "https://reddit.com/r/CatastrophicFailure/comments/1nwvsj4/explosion_and_fire_at_chevron_refinery_in_el/",
+      "keywords": [
+        "fire"
+      ],
+      "created": "2025-10-03 06:50:58",
+      "hours_ago": 319.8769123777777
+    }
+  ],
+  "sample_news": [
+    {
+      "source": "CNN Breaking",
+      "title": "French minister under fire for Playboy magazine cover",
+      "summary": "French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine.",
+      "url": "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+      "published": "Mon, 03 Apr 2023 11:54:59 GMT",
+      "keywords": [
+        "fire"
+      ]
+    },
+    {
+      "source": "USGS Earthquakes",
+      "title": "M 6.5 - 194 km WNW of Abepura, Indonesia",
+      "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5#pager\" title=\"PAGER estimated impact...",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5",
+      "published": "",
+      "keywords": [
+        "earthquake",
+        "tsunami"
+      ]
+    },
+    {
+      "source": "USGS Earthquakes",
+      "title": "M 6.3 - Drake Passage",
+      "summary": "<p class=\"quicksummary\"><a class=\"pager-green\" href=\"https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhf2#pager\" title=\"PAGER estimated impact...",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhf2",
+      "published": "",
+      "keywords": [
+        "earthquake",
+        "tsunami"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+type,magnitude,location,time,lat,lon,url,priority
+MAJOR_EARTHQUAKE,6.5,"194 km WNW of Abepura, Indonesia",2025-10-16 05:48:55.452,-2.1676,138.9382,https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5,HIGH
+MAJOR_EARTHQUAKE,6.3,Drake Passage,2025-10-16 01:42:32.850,-59.9066,-61.6217,https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhf2,HIGH

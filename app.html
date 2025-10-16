@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🚨 Live Disaster Intelligence</title>
+    <meta charset="utf-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .header h1 { font-size: 28px; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 14px; }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .panel {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .panel h2 {
+            color: #ffeb3b;
+            margin-bottom: 15px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat {
+            text-align: center;
+            background: rgba(0,0,0,0.2);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff5722;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        
+        .event-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .event {
+            background: rgba(0,0,0,0.2);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ff5722;
+        }
+        
+        .event-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #ffeb3b;
+        }
+        
+        .event-meta {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+        
+        .event-engagement {
+            font-size: 11px;
+            color: #4caf50;
+        }
+        
+        .emergency {
+            border-left-color: #f44336;
+            background: rgba(244, 67, 54, 0.1);
+        }
+        
+        .trending {
+            background: rgba(255, 235, 59, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        
+        .trending h3 {
+            color: #ffeb3b;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .trend-item {
+            display: flex;
+            justify-content: between;
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        
+        .timestamp {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+        
+        .refresh-btn {
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .refresh-btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚨 Live Disaster Intelligence Center</h1>
+        <p>Real-time monitoring • Social media intelligence • Emergency alerts</p>
+        <button class="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-number" id="totalEvents">-</div>
+            <div class="stat-label">Active Events</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number" id="redditPosts">-</div>
+            <div class="stat-label">Social Discussions</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number" id="newsStories">-</div>
+            <div class="stat-label">Breaking News</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number" id="emergencies">-</div>
+            <div class="stat-label">Emergencies</div>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <div class="panel">
+            <h2>🚨 Active Emergencies</h2>
+            <div id="emergencyList">Loading emergency data...</div>
+        </div>
+        
+        <div class="panel">
+            <h2>🗨️ Live Social Intelligence</h2>
+            <div id="socialList">Loading social media data...</div>
+        </div>
+        
+        <div class="panel">
+            <h2>📰 Breaking News</h2>
+            <div id="newsList">Loading news feeds...</div>
+        </div>
+        
+        <div class="panel">
+            <h2>📊 Trending Analysis</h2>
+            <div id="trendingAnalysis">Analyzing trends...</div>
+        </div>
+    </div>
+    
+    <div class="timestamp">
+        Last updated: <span id="lastUpdate">Never</span>
+    </div>
+    
+    <script>
+        async function loadEmergencies() {
+            try {
+                const response = await fetch('active_emergencies.csv');
+                const text = await response.text();
+                const lines = text.split('\n');
+                
+                const emergencies = [];
+                for (let i = 1; i < lines.length; i++) {
+                    if (lines[i].trim()) {
+                        const parts = lines[i].split(',');
+                        emergencies.push({
+                            type: parts[0],
+                            magnitude: parts[1],
+                            location: parts[2],
+                            priority: parts[7]
+                        });
+                    }
+                }
+                
+                document.getElementById('emergencies').textContent = emergencies.length;
+                
+                const emergencyList = document.getElementById('emergencyList');
+                if (emergencies.length === 0) {
+                    emergencyList.innerHTML = '<div class="event">✅ No major emergencies currently active</div>';
+                } else {
+                    emergencyList.innerHTML = emergencies.map(emergency => `
+                        <div class="event emergency">
+                            <div class="event-title">🌍 ${emergency.type.replace('MAJOR_', '')} M${emergency.magnitude}</div>
+                            <div class="event-meta">📍 ${emergency.location.replace(/"/g, '')}</div>
+                            <div class="event-engagement">Priority: ${emergency.priority}</div>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                document.getElementById('emergencyList').innerHTML = '<div class="event">❌ Unable to load emergency data</div>';
+            }
+        }
+        
+        async function loadIntelligence() {
+            try {
+                const response = await fetch('live_demo_results.json');
+                const data = await response.json();
+                
+                document.getElementById('totalEvents').textContent = 
+                    data.reddit_discussions + data.news_stories;
+                document.getElementById('redditPosts').textContent = data.reddit_discussions;
+                document.getElementById('newsStories').textContent = data.news_stories;
+                
+                // Load Reddit discussions
+                const socialList = document.getElementById('socialList');
+                if (data.sample_reddit && data.sample_reddit.length > 0) {
+                    socialList.innerHTML = data.sample_reddit.slice(0, 5).map(post => `
+                        <div class="event">
+                            <div class="event-title">r/${post.subreddit}</div>
+                            <div class="event-meta">${post.title.substring(0, 80)}...</div>
+                            <div class="event-engagement">
+                                👍 ${post.score} upvotes • 💬 ${post.comments} comments • 
+                                🕐 ${Math.round(post.hours_ago)}h ago
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    socialList.innerHTML = '<div class="event">No social media discussions found</div>';
+                }
+                
+                // Load news
+                const newsList = document.getElementById('newsList');
+                if (data.sample_news && data.sample_news.length > 0) {
+                    newsList.innerHTML = data.sample_news.slice(0, 5).map(news => `
+                        <div class="event">
+                            <div class="event-title">${news.source}</div>
+                            <div class="event-meta">${news.title}</div>
+                            <div class="event-engagement">Keywords: ${news.keywords.join(', ')}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    newsList.innerHTML = '<div class="event">No breaking news found</div>';
+                }
+                
+                // Trending analysis
+                const trending = document.getElementById('trendingAnalysis');
+                if (data.trending_topics && data.trending_topics.length > 0) {
+                    trending.innerHTML = `
+                        <div class="trending">
+                            <h3>🔥 Trending Disaster Topics</h3>
+                            ${data.trending_topics.map(topic => `
+                                <div class="trend-item">
+                                    <strong>${topic.toUpperCase()}</strong> - Active across news & social media
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                } else {
+                    trending.innerHTML = '<div class="event">No trending topics detected</div>';
+                }
+                
+            } catch (error) {
+                console.error('Error loading intelligence data:', error);
+            }
+        }
+        
+        function loadData() {
+            loadEmergencies();
+            loadIntelligence();
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+        }
+        
+        // Load data on page load
+        loadData();
+        
+        // Auto-refresh every 5 minutes
+        setInterval(loadData, 300000);
+    </script>
+</body>
+</html>
