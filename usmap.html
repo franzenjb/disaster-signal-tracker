@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🗺️ US Disaster Map - Red Cross Operations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .header {
+            background: #d32f2f;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            z-index: 1000;
+            position: relative;
+        }
+        .controls {
+            background: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+            z-index: 1000;
+            position: relative;
+        }
+        #map {
+            height: 80vh;
+            width: 100%;
+        }
+        .info-panel {
+            position: absolute;
+            top: 80px;
+            right: 10px;
+            width: 300px;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        .event-item {
+            background: #f8f8f8;
+            border-left: 4px solid #d32f2f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .event-type {
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        .coordinates {
+            font-family: monospace;
+            font-size: 12px;
+            color: #666;
+        }
+        button {
+            background: #d32f2f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #b71c1c;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        🗺️ United States Disaster Response Map - American Red Cross
+        <br><small>Real-time monitoring across all 50 states, DC, and US territories</small>
+    </div>
+    
+    <div class="controls">
+        <button onclick="loadAllUSDisasters()">🔄 Scan All US Disasters</button>
+        <button onclick="focusWeather()">🌪️ Weather Events</button>
+        <button onclick="focusEarthquakes()">🌍 Earthquakes</button>
+        <button onclick="focusWildfires()">🔥 Wildfires</button>
+        <span style="margin-left: 20px;">Last scan: <span id="lastUpdate">Never</span></span>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="info-panel">
+        <h3 style="margin-top: 0; color: #d32f2f;">📊 Current Situation</h3>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number" id="weatherCount">0</div>
+                <div class="stat-label">Weather Alerts</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="earthquakeCount">0</div>
+                <div class="stat-label">Earthquakes</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="fireCount">0</div>
+                <div class="stat-label">Wildfires</div>
+            </div>
+        </div>
+        
+        <div id="eventsList">
+            <p>Click "Scan All US Disasters" to load current events</p>
+        </div>
+    </div>
+    
+    <script>
+        // Initialize map centered on continental US
+        const map = L.map('map').setView([39.8, -98.6], 4);
+        
+        // Add US-focused tile layer
+        L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
+            maxZoom: 18
+        }).addTo(map);
+        
+        // Layer groups for different disaster types
+        const weatherLayer = L.layerGroup().addTo(map);
+        const earthquakeLayer = L.layerGroup().addTo(map);
+        const fireLayer = L.layerGroup().addTo(map);
+        
+        // Disaster counters
+        let disasters = {
+            weather: [],
+            earthquakes: [],
+            fires: []
+        };
+        
+        async function loadAllUSDisasters() {
+            document.getElementById('lastUpdate').textContent = 'Scanning...';
+            
+            // Clear existing markers
+            weatherLayer.clearLayers();
+            earthquakeLayer.clearLayers();
+            fireLayer.clearLayers();
+            disasters = { weather: [], earthquakes: [], fires: [] };
+            
+            await Promise.all([
+                loadWeatherAlerts(),
+                loadEarthquakes(),
+                loadWildfires()
+            ]);
+            
+            updateStats();
+            updateEventsList();
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+        }
+        
+        async function loadWeatherAlerts() {
+            try {
+                const response = await fetch('https://api.weather.gov/alerts/active');
+                const data = await response.json();
+                
+                const severityColors = {
+                    'Extreme': '#8B0000',
+                    'Severe': '#FF0000', 
+                    'Moderate': '#FF8C00',
+                    'Minor': '#FFD700'
+                };
+                
+                for (const alert of data.features) {
+                    const props = alert.properties;
+                    const geometry = alert.geometry;
+                    
+                    // Skip test messages
+                    if (props.event === 'Test Message') continue;
+                    
+                    if (geometry && geometry.type === 'Polygon') {
+                        const coords = geometry.coordinates[0];
+                        const centerLat = coords.reduce((sum, p) => sum + p[1], 0) / coords.length;
+                        const centerLon = coords.reduce((sum, p) => sum + p[0], 0) / coords.length;
+                        
+                        // US territory bounds check
+                        if (centerLat >= 18.9 && centerLat <= 71.4 && 
+                            centerLon >= -179.0 && centerLon <= -66.9) {
+                            
+                            const severity = props.severity || 'Minor';
+                            const color = severityColors[severity] || '#FFD700';
+                            
+                            const marker = L.circleMarker([centerLat, centerLon], {
+                                radius: 8,
+                                fillColor: color,
+                                color: 'white',
+                                weight: 2,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            });
+                            
+                            const popupContent = `
+                                <b>🌪️ ${props.event}</b><br>
+                                <b>Severity:</b> ${severity}<br>
+                                <b>Area:</b> ${props.areaDesc || 'Unknown'}<br>
+                                <b>Expires:</b> ${props.expires ? new Date(props.expires).toLocaleString() : 'Unknown'}<br>
+                                <b>Coordinates:</b> ${centerLat.toFixed(3)}, ${centerLon.toFixed(3)}
+                            `;
+                            
+                            marker.bindPopup(popupContent);
+                            marker.addTo(weatherLayer);
+                            
+                            disasters.weather.push({
+                                type: props.event,
+                                severity: severity,
+                                area: props.areaDesc || 'Unknown area',
+                                lat: centerLat,
+                                lon: centerLon,
+                                expires: props.expires
+                            });
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading weather alerts:', error);
+            }
+        }
+        
+        async function loadEarthquakes() {
+            try {
+                // Load all earthquakes from past week, magnitude 2.5+
+                const response = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson');
+                const data = await response.json();
+                
+                for (const quake of data.features) {
+                    const props = quake.properties;
+                    const coords = quake.geometry.coordinates;
+                    const mag = props.mag || 0;
+                    
+                    // US territory bounds check
+                    if (coords[1] >= 18.9 && coords[1] <= 71.4 && 
+                        coords[0] >= -179.0 && coords[0] <= -66.9) {
+                        
+                        // Color by magnitude
+                        let color = '#FFA500'; // Orange for smaller quakes
+                        let radius = 6;
+                        
+                        if (mag >= 6.0) {
+                            color = '#8B0000'; // Dark red for major
+                            radius = 12;
+                        } else if (mag >= 5.0) {
+                            color = '#FF0000'; // Red for significant
+                            radius = 10;
+                        } else if (mag >= 4.0) {
+                            color = '#FF4500'; // Orange-red for moderate
+                            radius = 8;
+                        }
+                        
+                        const marker = L.circleMarker([coords[1], coords[0]], {
+                            radius: radius,
+                            fillColor: color,
+                            color: 'white',
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+                        
+                        const timeStr = new Date(props.time).toLocaleString();
+                        const popupContent = `
+                            <b>🌍 Magnitude ${mag} Earthquake</b><br>
+                            <b>Location:</b> ${props.place || 'Unknown'}<br>
+                            <b>Time:</b> ${timeStr}<br>
+                            <b>Depth:</b> ${coords[2]} km<br>
+                            <b>Coordinates:</b> ${coords[1].toFixed(3)}, ${coords[0].toFixed(3)}
+                        `;
+                        
+                        marker.bindPopup(popupContent);
+                        marker.addTo(earthquakeLayer);
+                        
+                        disasters.earthquakes.push({
+                            magnitude: mag,
+                            location: props.place || 'Unknown location',
+                            time: timeStr,
+                            lat: coords[1],
+                            lon: coords[0]
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading earthquakes:', error);
+            }
+        }
+        
+        async function loadWildfires() {
+            try {
+                // NASA FIRMS data for US
+                const response = await fetch('https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_USA_contiguous_and_Hawaii_24h.csv');
+                const text = await response.text();
+                const lines = text.split('\n');
+                
+                for (let i = 1; i < lines.length; i++) {
+                    if (lines[i].trim()) {
+                        const parts = lines[i].split(',');
+                        const lat = parseFloat(parts[0]);
+                        const lon = parseFloat(parts[1]);
+                        const confidence = parseInt(parts[8]);
+                        const frp = parseFloat(parts[11]);
+                        
+                        // Filter for high-confidence fires only
+                        if (confidence >= 75) {
+                            let color = '#FF4500';
+                            let radius = 5;
+                            
+                            if (frp >= 100) {
+                                color = '#8B0000'; // Dark red for intense fires
+                                radius = 8;
+                            } else if (frp >= 50) {
+                                color = '#FF0000'; // Red for significant fires
+                                radius = 6;
+                            }
+                            
+                            const marker = L.circleMarker([lat, lon], {
+                                radius: radius,
+                                fillColor: color,
+                                color: 'white',
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            });
+                            
+                            const popupContent = `
+                                <b>🔥 Active Fire Detection</b><br>
+                                <b>Confidence:</b> ${confidence}%<br>
+                                <b>Fire Power:</b> ${frp} MW<br>
+                                <b>Detection:</b> ${parts[5]} ${parts[6]}<br>
+                                <b>Coordinates:</b> ${lat.toFixed(3)}, ${lon.toFixed(3)}
+                            `;
+                            
+                            marker.bindPopup(popupContent);
+                            marker.addTo(fireLayer);
+                            
+                            disasters.fires.push({
+                                confidence: confidence,
+                                frp: frp,
+                                lat: lat,
+                                lon: lon,
+                                date: parts[5]
+                            });
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading wildfire data:', error);
+            }
+        }
+        
+        function updateStats() {
+            document.getElementById('weatherCount').textContent = disasters.weather.length;
+            document.getElementById('earthquakeCount').textContent = disasters.earthquakes.length;
+            document.getElementById('fireCount').textContent = disasters.fires.length;
+        }
+        
+        function updateEventsList() {
+            const eventsList = document.getElementById('eventsList');
+            let html = '';
+            
+            // Show top 5 of each type
+            if (disasters.weather.length > 0) {
+                html += '<h4>🌪️ Weather Alerts</h4>';
+                disasters.weather.slice(0, 5).forEach(event => {
+                    html += `<div class="event-item">
+                        <div class="event-type">${event.type}</div>
+                        <div>${event.area}</div>
+                        <div class="coordinates">${event.lat.toFixed(3)}, ${event.lon.toFixed(3)}</div>
+                    </div>`;
+                });
+            }
+            
+            if (disasters.earthquakes.length > 0) {
+                html += '<h4>🌍 Recent Earthquakes</h4>';
+                disasters.earthquakes.slice(0, 5).forEach(event => {
+                    html += `<div class="event-item">
+                        <div class="event-type">M${event.magnitude} Earthquake</div>
+                        <div>${event.location}</div>
+                        <div class="coordinates">${event.lat.toFixed(3)}, ${event.lon.toFixed(3)}</div>
+                    </div>`;
+                });
+            }
+            
+            if (disasters.fires.length > 0) {
+                html += '<h4>🔥 Active Wildfires</h4>';
+                disasters.fires.slice(0, 5).forEach(event => {
+                    html += `<div class="event-item">
+                        <div class="event-type">Fire Detection</div>
+                        <div>Confidence: ${event.confidence}%, Power: ${event.frp}MW</div>
+                        <div class="coordinates">${event.lat.toFixed(3)}, ${event.lon.toFixed(3)}</div>
+                    </div>`;
+                });
+            }
+            
+            if (html === '') {
+                html = '<p>✅ No major disasters currently detected</p>';
+            }
+            
+            eventsList.innerHTML = html;
+        }
+        
+        function focusWeather() {
+            earthquakeLayer.remove();
+            fireLayer.remove();
+            weatherLayer.addTo(map);
+        }
+        
+        function focusEarthquakes() {
+            weatherLayer.remove();
+            fireLayer.remove();
+            earthquakeLayer.addTo(map);
+        }
+        
+        function focusWildfires() {
+            weatherLayer.remove();
+            earthquakeLayer.remove();
+            fireLayer.addTo(map);
+        }
+        
+        // Load data on page load
+        loadAllUSDisasters();
+    </script>
+</body>
+</html>
