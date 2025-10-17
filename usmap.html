@@ -131,9 +131,9 @@
         // Initialize map centered on continental US
         const map = L.map('map').setView([39.8, -98.6], 4);
         
-        // Add US-focused tile layer
-        L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
+        // Add US-focused tile layer (OpenStreetMap - no auth required)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
             maxZoom: 18
         }).addTo(map);
         
