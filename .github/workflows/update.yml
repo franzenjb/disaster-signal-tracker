@@ -1,8 +1,8 @@
 name: Update Disaster Map
 
-on:
-  schedule:
-    - cron: "0 * * * *"  # every hour on the hour
+on: workflow_dispatch:
+
+
   workflow_dispatch:     # manual run button
 jobs:
   build:
